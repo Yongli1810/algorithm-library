@@ -1,0 +1,58 @@
+[
+  {
+    "path": "优化算法/多目标优化/NSGA-II",
+    "author": "ght",
+    "title": "NSGA-II",
+    "docs": true,
+    "sha256": "dd9b7b369012b54b9600c73dd62dffca984f820bb5919ef748bedfeda40f1b85",
+    "source": "ght/NSGA2_Demo_Full_Package_20261030.zip"
+  },
+  {
+    "path": "优化算法/随机优化/模拟退火",
+    "author": "drw",
+    "title": "模拟退火",
+    "docs": true,
+    "sha256": "5c63ae64239fd3a4a3889b1755d58db58648625a367a991639b9d47e95ffc485",
+    "source": "drw/两周算法代码_模拟退火与DBSCAN_20261030.zip"
+  },
+  {
+    "path": "机器学习/聚类/K-means",
+    "author": "ght",
+    "title": "K-means",
+    "docs": true,
+    "sha256": "2ed4572f2b1ee085e34800c6db864beb1d582ab56e778abaa951907b68c52671",
+    "source": "ght/Kmeans_Complete_Package_v2.zip"
+  },
+  {
+    "path": "机器学习/聚类/DBSCAN",
+    "author": "drw",
+    "title": "DBSCAN",
+    "docs": true,
+    "sha256": "5c63ae64239fd3a4a3889b1755d58db58648625a367a991639b9d47e95ffc485",
+    "source": "drw/两周算法代码_模拟退火与DBSCAN_20261030.zip"
+  },
+  {
+    "path": "机器学习/分类/KNN手写数字识别",
+    "author": "zy",
+    "title": "KNN 手写数字识别",
+    "docs": false,
+    "sha256": "f97e7f7a851027dde9cc991bf8bcc822d0d1d79f16f5c5b4520b4cec73488408",
+    "source": "zy/单个手写数字识别复现材料.zip"
+  },
+  {
+    "path": "图像处理/图像分割/灰度阈值二值化",
+    "author": "gzj",
+    "title": "灰度阈值二值化",
+    "docs": true,
+    "sha256": "90ab9959c95bdb71c557b309e4bae4d1253ee5738cffc068515cff34b521e915",
+    "source": "gzj/灰度阈值二值化教学演示完整包.zip"
+  },
+  {
+    "path": "图像处理/边缘检测/Sobel",
+    "author": "gzj",
+    "title": "Sobel",
+    "docs": true,
+    "sha256": "16878a6fa1db351351eb59311e7e9ea7a1a23604fb5d74eb9cbf5e5042c240ae",
+    "source": "gzj/Sobel边缘检测教学演示完整包.zip"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "source": "generated geometric sample",
+  "shape": [
+    240,
+    320
+  ],
+  "threshold": 127,
+  "seed": 42,
+  "has_ground_truth": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pillow": "12.3.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "timing_repeats": 30,
+  "results": [
+    {
+      "threshold": 60,
+      "white_ratio": 0.8188541666666667,
+      "iou": 0.29673387609718865,
+      "false_positive": 44227,
+      "false_negative": 0,
+      "median_ms": 0.0566,
+      "p25_ms": 0.0566,
+      "p75_ms": 0.05685
+    },
+    {
+      "threshold": 127,
+      "white_ratio": 0.24298177083333333,
+      "iou": 1.0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "median_ms": 0.057249999999999995,
+      "p25_ms": 0.0568,
+      "p75_ms": 0.057975
+    },
+    {
+      "threshold": 200,
+      "white_ratio": 0.13783854166666668,
+      "iou": 0.5672793526606291,
+      "false_positive": 0,
+      "false_negative": 8075,
+      "median_ms": 0.0592,
+      "p25_ms": 0.057325,
+      "p75_ms": 0.06947500000000001
+    }
+  ]
+}

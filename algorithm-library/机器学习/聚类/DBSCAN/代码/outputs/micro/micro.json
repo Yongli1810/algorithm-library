@@ -1,0 +1,689 @@
+{
+  "eps": 0.2,
+  "min_samples": 4,
+  "points": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.1,
+      0.0
+    ],
+    [
+      0.0,
+      0.1
+    ],
+    [
+      0.1,
+      0.1
+    ],
+    [
+      0.28,
+      0.0
+    ],
+    [
+      2.0,
+      2.0
+    ],
+    [
+      2.1,
+      2.0
+    ],
+    [
+      2.0,
+      2.1
+    ],
+    [
+      2.1,
+      2.1
+    ],
+    [
+      5.0,
+      5.0
+    ]
+  ],
+  "expected_labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "core": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "queries": [
+    {
+      "id": 0,
+      "neighbors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "action": "accept",
+          "count": 4,
+          "bounds": [
+            0.0,
+            0.0,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "key": [
+            1,
+            0
+          ],
+          "action": "skip",
+          "count": 1,
+          "bounds": [
+            0.28,
+            0.0,
+            0.28,
+            0.0
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 2,
+        "box_checks": 2,
+        "skipped_cells": 1,
+        "accepted_cells": 1,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 1,
+      "neighbors": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "action": "accept",
+          "count": 4,
+          "bounds": [
+            0.0,
+            0.0,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "key": [
+            1,
+            0
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            0.28,
+            0.0,
+            0.28,
+            0.0
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 2,
+        "box_checks": 2,
+        "skipped_cells": 0,
+        "accepted_cells": 2,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 5,
+        "neighbor_entries": 5,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 2,
+      "neighbors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "action": "accept",
+          "count": 4,
+          "bounds": [
+            0.0,
+            0.0,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "key": [
+            1,
+            0
+          ],
+          "action": "skip",
+          "count": 1,
+          "bounds": [
+            0.28,
+            0.0,
+            0.28,
+            0.0
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 2,
+        "box_checks": 2,
+        "skipped_cells": 1,
+        "accepted_cells": 1,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 3,
+      "neighbors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "action": "accept",
+          "count": 4,
+          "bounds": [
+            0.0,
+            0.0,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "key": [
+            1,
+            0
+          ],
+          "action": "skip",
+          "count": 1,
+          "bounds": [
+            0.28,
+            0.0,
+            0.28,
+            0.0
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 2,
+        "box_checks": 2,
+        "skipped_cells": 1,
+        "accepted_cells": 1,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 4,
+      "neighbors": [
+        1,
+        4
+      ],
+      "core": false,
+      "cells": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "action": "test",
+          "count": 4,
+          "bounds": [
+            0.0,
+            0.0,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "key": [
+            1,
+            0
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            0.28,
+            0.0,
+            0.28,
+            0.0
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 2,
+        "box_checks": 2,
+        "skipped_cells": 0,
+        "accepted_cells": 1,
+        "distance_evaluations": 4,
+        "bulk_accepted_points": 1,
+        "neighbor_entries": 2,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 5,
+      "neighbors": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            9,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            9,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.1,
+            2.0,
+            2.1
+          ]
+        },
+        {
+          "key": [
+            10,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.0,
+            2.1,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            10,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.1,
+            2.1,
+            2.1
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 4,
+        "box_checks": 4,
+        "skipped_cells": 0,
+        "accepted_cells": 4,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 6,
+      "neighbors": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            9,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            9,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.1,
+            2.0,
+            2.1
+          ]
+        },
+        {
+          "key": [
+            10,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.0,
+            2.1,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            10,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.1,
+            2.1,
+            2.1
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 4,
+        "box_checks": 4,
+        "skipped_cells": 0,
+        "accepted_cells": 4,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 7,
+      "neighbors": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            9,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            9,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.1,
+            2.0,
+            2.1
+          ]
+        },
+        {
+          "key": [
+            10,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.0,
+            2.1,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            10,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.1,
+            2.1,
+            2.1
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 4,
+        "box_checks": 4,
+        "skipped_cells": 0,
+        "accepted_cells": 4,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 8,
+      "neighbors": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "core": true,
+      "cells": [
+        {
+          "key": [
+            9,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            9,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.0,
+            2.1,
+            2.0,
+            2.1
+          ]
+        },
+        {
+          "key": [
+            10,
+            9
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.0,
+            2.1,
+            2.0
+          ]
+        },
+        {
+          "key": [
+            10,
+            10
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            2.1,
+            2.1,
+            2.1,
+            2.1
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 4,
+        "box_checks": 4,
+        "skipped_cells": 0,
+        "accepted_cells": 4,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 4,
+        "neighbor_entries": 4,
+        "fallback_queries": 0
+      }
+    },
+    {
+      "id": 9,
+      "neighbors": [
+        9
+      ],
+      "core": false,
+      "cells": [
+        {
+          "key": [
+            24,
+            24
+          ],
+          "action": "accept",
+          "count": 1,
+          "bounds": [
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ]
+        }
+      ],
+      "counts": {
+        "queries": 1,
+        "candidate_cells": 1,
+        "box_checks": 1,
+        "skipped_cells": 0,
+        "accepted_cells": 1,
+        "distance_evaluations": 0,
+        "bulk_accepted_points": 1,
+        "neighbor_entries": 1,
+        "fallback_queries": 0
+      }
+    }
+  ],
+  "explanation": "0–3 form cluster 0 core; point 4 is its border; 5–8 form cluster 1 core; point 9 is noise. Self counts in min_samples."
+}

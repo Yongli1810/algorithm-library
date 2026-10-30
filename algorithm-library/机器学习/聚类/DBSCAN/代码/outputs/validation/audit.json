@@ -1,0 +1,8 @@
+{
+  "datasets": 24,
+  "measured_runs": 288,
+  "independently_recomputed_queries": 288,
+  "source_and_input_hashes": "pass",
+  "saved_partitions_core_noise": "pass",
+  "raw_summary_recalculation": "pass"
+}

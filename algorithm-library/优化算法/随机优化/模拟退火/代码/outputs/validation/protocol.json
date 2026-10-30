@@ -1,0 +1,50 @@
+{
+  "purpose": "Independent validation after development. The selected gate_0005 configuration is frozen; maps and solver seeds differ from development.",
+  "sizes": [
+    20,
+    50,
+    100
+  ],
+  "layouts": [
+    "uniform",
+    "clustered"
+  ],
+  "instances_per_layout": 3,
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "data_seed": 20271123,
+  "algorithm": {
+    "evaluations": 12000,
+    "calibration_samples": 200,
+    "initial_acceptance": 0.5,
+    "final_temperature_ratio": 0.0001,
+    "patience": 1000,
+    "periodic_interval": 3000,
+    "reheat_multiplier": 3.0,
+    "reheat_floor_ratio": 0.002,
+    "reheat_gate_ratio": 0.005,
+    "max_reheats": 3,
+    "reheat_until_fraction": 0.9,
+    "reheat_cooling": "remaining_budget"
+  }
+}

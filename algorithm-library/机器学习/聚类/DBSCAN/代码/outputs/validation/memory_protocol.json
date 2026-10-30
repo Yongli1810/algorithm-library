@@ -1,0 +1,14 @@
+{
+  "size": 5000,
+  "instances_per_family": 1,
+  "repeats": 1,
+  "interval_seconds": 0.002,
+  "description": "Separate fresh process per method/input. RSS baseline after imports, loading input and GC. Parent polls during fit, including construction. End RSS also sampled. Peak is an observed lower bound, affected by allocator and polling; delta excludes import/input baseline. Not used for timing claims.",
+  "psutil": "7.2.2",
+  "cases": [
+    "uniform_5000_20271129",
+    "moons_5000_20271129",
+    "blobs_5000_20271129",
+    "dense_5000_20271129"
+  ]
+}

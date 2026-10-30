@@ -1,0 +1,50 @@
+{
+  "source": "generated geometric sample",
+  "shape": [
+    240,
+    320
+  ],
+  "seed": 42,
+  "selected_threshold": 100,
+  "padding": "edge",
+  "kernel_operation": "correlation",
+  "display_scale": 4,
+  "timing_repeats": 30,
+  "timing_scope": "Sobel + threshold; excludes IO",
+  "magnitude_max": 806.2257690429688,
+  "gx_min": -782.0,
+  "gx_max": 794.0,
+  "gy_min": -777.0,
+  "gy_max": 799.0,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pillow": "12.3.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "results": [
+    {
+      "threshold": 30.0,
+      "edge_pixels": 18175,
+      "edge_ratio": 0.23665364583333334,
+      "median_ms": 1.0655000000000001,
+      "p25_ms": 1.04915,
+      "p75_ms": 1.093075
+    },
+    {
+      "threshold": 100,
+      "edge_pixels": 1990,
+      "edge_ratio": 0.025911458333333335,
+      "median_ms": 1.1296,
+      "p25_ms": 1.0985,
+      "p75_ms": 1.156775
+    },
+    {
+      "threshold": 600.0,
+      "edge_pixels": 709,
+      "edge_ratio": 0.009231770833333333,
+      "median_ms": 1.0398999999999998,
+      "p25_ms": 1.02295,
+      "p75_ms": 1.0675000000000001
+    }
+  ]
+}

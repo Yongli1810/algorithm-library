@@ -1,0 +1,57 @@
+{
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
+  "source_sha256": {
+    "annealing.py": "8203e08615d91d16b4de45c09051cdaea899f679858685b450d36b83ed397866",
+    "datasets.py": "6cf81c26b5fe4bf08d1fc0aa76e74e6f27af1aa4f0b07b0aa9cc31b7fda74cc9",
+    "experiments.py": "0196bffcc4414b773be6217381e6a52b2a0e1e5d4d237eeb130d1a132088bc82",
+    "run.py": "72e91125b71f90f9f0692bf25a5e1303c47977e14ca589f82b072b5cae701ab3",
+    "visualization.py": "10e0097c758dbed940f02ec3267c8287f38b2ce1aa1977cd02b99a4cd0c27e4f"
+  },
+  "protocol_sha256": "a101bc9900793cf31441d751c245a9e5048a5522b9becde159b44530be6e3f59",
+  "matrix_setup_timing": "Distance matrix construction excluded equally; solver time includes greedy initialization and temperature calibration.",
+  "order": "Deterministically shuffled method order for each paired run.",
+  "data_sha256": {
+    "uniform_20_0.csv": "a4e7fa563b597ee260c0cab8e6687bb93ccdd5bafca3c452d7aa6d9339971454",
+    "uniform_20_1.csv": "48d721c685c91fd31addb90089694a45cd4a5de7d247bb1e20fe14cf9b0e3938",
+    "uniform_20_2.csv": "9147d7cf055cb669b1ed15d23b3b437760adb7851d893925c836f405c1dd96be",
+    "clustered_20_0.csv": "63e7d7dc87866dbf427c85a1dc4f0ffe9dcfa673d784c3e3ee9763e1b431ff01",
+    "clustered_20_1.csv": "d5bf1f12a2ffeb0d13d004c7640d8110c9414aeebc6f38610273dc211592cd1f",
+    "clustered_20_2.csv": "7e942cb3173029b45eeb332495c568088922f02ebf4a35d1389f54a41a41650d",
+    "uniform_50_0.csv": "2610550c58d7dce6e6654ff1d2604ffee06901c9e78f4f1040acf2f50c3d9460",
+    "uniform_50_1.csv": "d1a616bef321f28abc013f0da9ec9f375590c54cb56147002d9a5104faf1b2af",
+    "uniform_50_2.csv": "f7e5fa06e2736e5b8e142b32638621c6201536787d67aa518e935ccf6229893a",
+    "clustered_50_0.csv": "849f65db381331cb229f38b6d1d104d878140c361bb614370076bc4cad76691d",
+    "clustered_50_1.csv": "132ff8ec338a4b3df18185df68a8c9bf58154c4a753cc017e98dc924997647a1",
+    "clustered_50_2.csv": "be98386d93fa31e44ffad4f772b7b888de1d4dfdcb41bd694e3b78d52cee2624",
+    "uniform_100_0.csv": "2fcd58f0056619229dbf940d84c2b3512dd534a7fbdb1d4844d8ffa467061b5c",
+    "uniform_100_1.csv": "2e989388309d5c0a25459708fe5fae2fcb123dde6f4c85933750f27e827f9c99",
+    "uniform_100_2.csv": "da450763eadc209f26b1f4043b1097700db23ed5f8fafddcf43d60f7ac824c81",
+    "clustered_100_0.csv": "950ffb464dceca03888ab21fd314429657a3edcc4f1f0b05483f4876f4b87dfe",
+    "clustered_100_1.csv": "778517831544438452529102aaec00663c2ede4f1a8c17015ddc8c61b6d8f83c",
+    "clustered_100_2.csv": "91fd11c85aadb6b8e99b41a08cdec5df11c6fecfa37bbe2857954a4ff58b4836"
+  },
+  "resolved_base_config": {
+    "mode": "stagnation",
+    "evaluations": 12000,
+    "calibration_samples": 200,
+    "initial_acceptance": 0.5,
+    "final_temperature_ratio": 0.0001,
+    "patience": 1000,
+    "periodic_interval": 3000,
+    "reheat_multiplier": 3.0,
+    "reheat_floor_ratio": 0.002,
+    "reheat_gate_ratio": 0.005,
+    "max_reheats": 3,
+    "reheat_until_fraction": 0.9,
+    "reheat_cooling": "remaining_budget",
+    "trace_every": 0
+  },
+  "packages": {
+    "numpy": "2.4.4",
+    "matplotlib": "3.11.1"
+  },
+  "wall_seconds": 69.62685280000005,
+  "completed_runs": 1080
+}

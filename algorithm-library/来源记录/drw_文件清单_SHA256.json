@@ -1,0 +1,637 @@
+[
+  {
+    "path": "算法/01_模拟退火配送路线优化/annealing.py",
+    "bytes": 12151,
+    "sha256": "8203e08615d91d16b4de45c09051cdaea899f679858685b450d36b83ed397866"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/configs/development_v1.json",
+    "bytes": 586,
+    "sha256": "fecec0dac1a37315b9c90ae2df7f01230e682e3ba948158aeeb3308a9ac2d6ae"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/configs/development_v2.json",
+    "bytes": 549,
+    "sha256": "5fb04b118683a4dd6d213eb5250004334fdbaa6747947b6c5129c643a091bf49"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/configs/full.json",
+    "bytes": 783,
+    "sha256": "d9884f508acce142d4e1fb7a185fa9588fce77456693f0fcd4dd05dd37f67f06"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/configs/quick.json",
+    "bytes": 268,
+    "sha256": "1a039d1cf3302af634a37fe69cd849d359f02375ee38edfac66e1c8cc759ebf5"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/data/demo_50_clustered.csv",
+    "bytes": 2059,
+    "sha256": "7d5766f68cb24f5adbb4a37b8064faf03ff5bd814d1859fa8c4cff3bb7aefda6"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/data/square.csv",
+    "bytes": 32,
+    "sha256": "af8402708382ab70e2bf6deab4e61c7a4fa45c24eeebe610a877cc52521b9aeb"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/datasets.py",
+    "bytes": 2275,
+    "sha256": "6cf81c26b5fe4bf08d1fc0aa76e74e6f27af1aa4f0b07b0aa9cc31b7fda74cc9"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/docs/模拟退火算法讲解与代码演示.docx",
+    "bytes": 38769,
+    "sha256": "c0b2eee843b70386a49c106df203381e6d23bb352af50014835097a8282336b9"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/docs/验证记录.md",
+    "bytes": 2097,
+    "sha256": "af13ea47662a22841b2c0d954c917dcda52bbe9d30c6243901a705c29d27ca33"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/experiments.py",
+    "bytes": 13735,
+    "sha256": "0196bffcc4414b773be6217381e6a52b2a0e1e5d4d237eeb130d1a132088bc82"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/demo/convergence.png",
+    "bytes": 112859,
+    "sha256": "fb7896637bc8590c18a56ee8075078dbda576cae07aa6d6576e6d74c1313f303"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/demo/demo.html",
+    "bytes": 452863,
+    "sha256": "73f4d94c11e8ae6380d0e6c66015d24a51fd7e991aaf03458ed27cb4cdd7aa2f"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/demo/demo.json",
+    "bytes": 1377602,
+    "sha256": "8595db04523b33fa22d7166615385c24030ac9f0dd8e94a6b5ebb187793f390e"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/demo/points.csv",
+    "bytes": 2059,
+    "sha256": "7d5766f68cb24f5adbb4a37b8064faf03ff5bd814d1859fa8c4cff3bb7aefda6"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/demo/routes.png",
+    "bytes": 180348,
+    "sha256": "aabacac7c178343aea3f0b8248dc9c83189484a3c63a3d9944dfe5d29c3f582e"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/micro/eight_points.csv",
+    "bytes": 307,
+    "sha256": "7af9ae9936abb2c01a46c530c8647429cbbeb344430f08340d217ea8592a6ca5"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/micro/micro.json",
+    "bytes": 7492202,
+    "sha256": "d67a16a0938995557ab4c7c92caffdeafdefdb767ba70536b220f34e86b2c87b"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/comparison.png",
+    "bytes": 75195,
+    "sha256": "47be7fac670d349d13dc524fc57b6dc8605c9727e17e39dff078bd60b2b61d57"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_100_0.csv",
+    "bytes": 4150,
+    "sha256": "950ffb464dceca03888ab21fd314429657a3edcc4f1f0b05483f4876f4b87dfe"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_100_1.csv",
+    "bytes": 4129,
+    "sha256": "778517831544438452529102aaec00663c2ede4f1a8c17015ddc8c61b6d8f83c"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_100_2.csv",
+    "bytes": 4148,
+    "sha256": "91fd11c85aadb6b8e99b41a08cdec5df11c6fecfa37bbe2857954a4ff58b4836"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_20_0.csv",
+    "bytes": 807,
+    "sha256": "63e7d7dc87866dbf427c85a1dc4f0ffe9dcfa673d784c3e3ee9763e1b431ff01"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_20_1.csv",
+    "bytes": 805,
+    "sha256": "d5bf1f12a2ffeb0d13d004c7640d8110c9414aeebc6f38610273dc211592cd1f"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_20_2.csv",
+    "bytes": 806,
+    "sha256": "7e942cb3173029b45eeb332495c568088922f02ebf4a35d1389f54a41a41650d"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_50_0.csv",
+    "bytes": 2050,
+    "sha256": "849f65db381331cb229f38b6d1d104d878140c361bb614370076bc4cad76691d"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_50_1.csv",
+    "bytes": 2059,
+    "sha256": "132ff8ec338a4b3df18185df68a8c9bf58154c4a753cc017e98dc924997647a1"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/clustered_50_2.csv",
+    "bytes": 2047,
+    "sha256": "be98386d93fa31e44ffad4f772b7b888de1d4dfdcb41bd694e3b78d52cee2624"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_100_0.csv",
+    "bytes": 4155,
+    "sha256": "2fcd58f0056619229dbf940d84c2b3512dd534a7fbdb1d4844d8ffa467061b5c"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_100_1.csv",
+    "bytes": 4141,
+    "sha256": "2e989388309d5c0a25459708fe5fae2fcb123dde6f4c85933750f27e827f9c99"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_100_2.csv",
+    "bytes": 4154,
+    "sha256": "da450763eadc209f26b1f4043b1097700db23ed5f8fafddcf43d60f7ac824c81"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_20_0.csv",
+    "bytes": 804,
+    "sha256": "a4e7fa563b597ee260c0cab8e6687bb93ccdd5bafca3c452d7aa6d9339971454"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_20_1.csv",
+    "bytes": 808,
+    "sha256": "48d721c685c91fd31addb90089694a45cd4a5de7d247bb1e20fe14cf9b0e3938"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_20_2.csv",
+    "bytes": 805,
+    "sha256": "9147d7cf055cb669b1ed15d23b3b437760adb7851d893925c836f405c1dd96be"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_50_0.csv",
+    "bytes": 2058,
+    "sha256": "2610550c58d7dce6e6654ff1d2604ffee06901c9e78f4f1040acf2f50c3d9460"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_50_1.csv",
+    "bytes": 2062,
+    "sha256": "d1a616bef321f28abc013f0da9ec9f375590c54cb56147002d9a5104faf1b2af"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/data/uniform_50_2.csv",
+    "bytes": 2061,
+    "sha256": "f7e5fa06e2736e5b8e142b32638621c6201536787d67aa518e935ccf6229893a"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/group_summary.csv",
+    "bytes": 1954,
+    "sha256": "25e391f3601de42dd028b01fef2c7ee69eed0179bee3745662cd447b0eb3bebf"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/manifest.json",
+    "bytes": 3331,
+    "sha256": "46181958af74913591cd441af454fb1c0fba0c1b43c3cc664850e6e60e65f6a0"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/protocol.json",
+    "bytes": 943,
+    "sha256": "a101bc9900793cf31441d751c245a9e5048a5522b9becde159b44530be6e3f59"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/runs.csv",
+    "bytes": 158265,
+    "sha256": "f3508579be6a46df9452b89918965d45444d2f009858019192c83e10f25bfd44"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/solutions.json",
+    "bytes": 1149361,
+    "sha256": "1a7a6ae5043adcfb605f35f2b8a6f667f4d59c52b37e7e0140ab304ef9b3dfdb"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/source_snapshot/annealing.py",
+    "bytes": 12151,
+    "sha256": "8203e08615d91d16b4de45c09051cdaea899f679858685b450d36b83ed397866"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/source_snapshot/datasets.py",
+    "bytes": 2275,
+    "sha256": "6cf81c26b5fe4bf08d1fc0aa76e74e6f27af1aa4f0b07b0aa9cc31b7fda74cc9"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/source_snapshot/experiments.py",
+    "bytes": 13735,
+    "sha256": "0196bffcc4414b773be6217381e6a52b2a0e1e5d4d237eeb130d1a132088bc82"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/source_snapshot/run.py",
+    "bytes": 5234,
+    "sha256": "72e91125b71f90f9f0692bf25a5e1303c47977e14ca589f82b072b5cae701ab3"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/source_snapshot/visualization.py",
+    "bytes": 10136,
+    "sha256": "10e0097c758dbed940f02ec3267c8287f38b2ce1aa1977cd02b99a4cd0c27e4f"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/summary.json",
+    "bytes": 9593,
+    "sha256": "212f48bec0d559ed96cf6d6c9ecd35c0d2988cb14d066eb8dc2bdea2a8f1d76a"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/outputs/validation/实验报告.md",
+    "bytes": 4487,
+    "sha256": "a0b8f1af957f6536076e75834f14d07d6b19341246877963aa72a9c37e2270a6"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/README.md",
+    "bytes": 11408,
+    "sha256": "114f4227898db331a423055538b59271991f72112e8d546a377bafeb8e18eb70"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/requirements.txt",
+    "bytes": 170,
+    "sha256": "a098fac853cbbd080e18fa84b9b9f8c6cffc0e1a06af288a476113e734b88ff9"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/run.cmd",
+    "bytes": 340,
+    "sha256": "22c2769e3b36a98d86e4879b36932bc997229b4552684ce5c0f15414a9538528"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/run.py",
+    "bytes": 5234,
+    "sha256": "72e91125b71f90f9f0692bf25a5e1303c47977e14ca589f82b072b5cae701ab3"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/tests/test_algorithm.py",
+    "bytes": 9550,
+    "sha256": "5e365bf31f2611e53b0c8fd537a85ebeb66067b62d0e0d6d2c1069b51f564a47"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/tools/build_handout.py",
+    "bytes": 14044,
+    "sha256": "0d1abca823ea0838ce648fedfa5ba4aaa98cd99767a784c33715c3369eb9c626"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/tools/tune_development.py",
+    "bytes": 3314,
+    "sha256": "a692c862ec1be3db68ac739a65f65eec85bb50846299814d2d1eabfba49a93d1"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/tools/verify_results.py",
+    "bytes": 2888,
+    "sha256": "f195135155f3758de76168de7bcc3a981c2f29521fe5f36c36b8a54d33993551"
+  },
+  {
+    "path": "算法/01_模拟退火配送路线优化/visualization.py",
+    "bytes": 10136,
+    "sha256": "10e0097c758dbed940f02ec3267c8287f38b2ce1aa1977cd02b99a4cd0c27e4f"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/configs/development.json",
+    "bytes": 168,
+    "sha256": "fd55165436237a9bc5561835e1aa62fc7426373c7eeb4b02041ecb63317a465b"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/configs/quick.json",
+    "bytes": 161,
+    "sha256": "e420e078b4b027848fbe0a23e4f855102694634efbe642242b894643243b36df"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/configs/validation.json",
+    "bytes": 185,
+    "sha256": "86bf91a9a6eba6241fc6fdf89b20aea7efded5b97984ac74637a795cb453ac95"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/datasets.py",
+    "bytes": 2378,
+    "sha256": "56a87be21f3f6ba676e3b70a756ca7b5fd364af91f92b8e9093a7bc2513e4b7d"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/dbscan.py",
+    "bytes": 10099,
+    "sha256": "fe4c3a8039da89382ba732da9f6fafbfdaa9217624cc366cf64b3efb9bf4e256"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/demo_template.html",
+    "bytes": 18263,
+    "sha256": "89fa0e235802a3fbe7fa2bcca7a52d001091ac256908f9f1a6afc61453cb120d"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/docs/DBSCAN算法讲解与代码演示.docx",
+    "bytes": 38949,
+    "sha256": "029f00bb5d8d67a1f5b6530786e99f1148c246b9ff3df072adfca1203286de07"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/docs/验证记录.md",
+    "bytes": 5427,
+    "sha256": "83cb6e21e549fe1aa371030fe0bcbe569c32394579e120467131da69efe36e39"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/experiments.py",
+    "bytes": 15576,
+    "sha256": "9b560cb8c50690f5a13d7bc91b17adf74a017aec46b40e50730d03d3f0d5295e"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/blobs.csv",
+    "bytes": 11807,
+    "sha256": "4cf65f882a3dabb6098de618708d40cf07c4f2f165c906c438859d420d295334"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/demo.html",
+    "bytes": 2930835,
+    "sha256": "609d7f92e85fee364cc77b2b771b88e667d0a8b9972ce4e9cfd3eb4cf22c3d47"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/demo.json",
+    "bytes": 12105533,
+    "sha256": "1b382d801543524f1efe80ab142a0a124ff339c4e9a3cdc2a942ddadd554bbe6"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/dense.csv",
+    "bytes": 8315,
+    "sha256": "a2a78e1b4c8a608619ca4801764e4a2c37e96e4611221f323fb59b2d55a71387"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/micro.csv",
+    "bytes": 236,
+    "sha256": "c8a7047dc73364efd02f2252bb2b6aa3d4c7139b2fdf6afdfbf976fde40fa972"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/moons.csv",
+    "bytes": 11682,
+    "sha256": "70ae6532775b8b2f572b1a16718f5239250f6debff297bf1ce356f6b2e68e055"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/demo/uniform.csv",
+    "bytes": 11866,
+    "sha256": "9964d204be02f990945efca590791ecab5cbdd8b3106d547a5cd186b47f9d688"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/micro/cluster_cli.json",
+    "bytes": 681,
+    "sha256": "7eaad84d04a27baffb191aea8bff28fb4f1472fa80d17f6a676e4e4fa9ce597a"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/micro/micro.json",
+    "bytes": 12211,
+    "sha256": "31182614dd584d26409881124cb54206ccb66a671ded09b458cbadf62f895af2"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/micro/points.csv",
+    "bytes": 236,
+    "sha256": "c8a7047dc73364efd02f2252bb2b6aa3d4c7139b2fdf6afdfbf976fde40fa972"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/audit.json",
+    "bytes": 211,
+    "sha256": "650104f6b8ae38593f428acc05fb12bb98b40d58fc0793a95fbb2702ed596083"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/case_summary.csv",
+    "bytes": 16896,
+    "sha256": "c4ba56021b5a974713c9752511dcbbae9df7e7b1815d4cb76025ea267a5b63a7"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/comparison.png",
+    "bytes": 213989,
+    "sha256": "b70261ada76071560ff7842c21c44d5955ff145da6ef942f1e821c7b364c1980"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/config.json",
+    "bytes": 185,
+    "sha256": "86bf91a9a6eba6241fc6fdf89b20aea7efded5b97984ac74637a795cb453ac95"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/blobs_10000_20271129.csv",
+    "bytes": 466848,
+    "sha256": "2b12a315adb10a8f68fb41c1bc4f6539ae67d046bdaa1151fdd581912961e0b8"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/blobs_10000_20271229.csv",
+    "bytes": 466660,
+    "sha256": "1de922b125114e09c45d963a99418d27e412e1f864e0017de7ba29f6f60bec2b"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/blobs_1000_20271129.csv",
+    "bytes": 45673,
+    "sha256": "7f29e9e3c0382bd19b1bc7e0ce3c13e3d685192989898c9bd978a1f09a838472"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/blobs_1000_20271229.csv",
+    "bytes": 45692,
+    "sha256": "30739df9311938347683866987b2f774432c588655bd752b59434ee828c43450"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/blobs_5000_20271129.csv",
+    "bytes": 232767,
+    "sha256": "586771650138eab81765701b7e1512f85e780b4bf3976b57b131698ce8a9b605"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/blobs_5000_20271229.csv",
+    "bytes": 232838,
+    "sha256": "669329a790b0ca35f05ac43cab33adee8aa8b6033ceb30afe5d5a60e0f8d237c"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/dense_10000_20271129.csv",
+    "bytes": 476600,
+    "sha256": "4c8304b52c1677c0b3e63a23d090844cf265caab0dcc8570cc564d1ae7f22004"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/dense_10000_20271229.csv",
+    "bytes": 476656,
+    "sha256": "7baa942e55b04762d70c1b655a9f73e832e2d860489b9f9d2bb4d629db564186"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/dense_1000_20271129.csv",
+    "bytes": 46632,
+    "sha256": "6ff62a36221163d729ee780d0c440f12f4eb81fcf595566114b59f87ade2fc85"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/dense_1000_20271229.csv",
+    "bytes": 46661,
+    "sha256": "4da9a7c734775767ce31b04f7342dbf39af2f7333c174ffe146ec0c2ab990d42"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/dense_5000_20271129.csv",
+    "bytes": 237783,
+    "sha256": "45cff3eb7d81a8f32fc96a872c533db69b4feb912cdda764ca61c1d11ffed13f"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/dense_5000_20271229.csv",
+    "bytes": 237801,
+    "sha256": "ca635aa61479bf725f9fa29807b4d87e3f514d2425a0a955315be2a18f69d7c6"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/moons_10000_20271129.csv",
+    "bytes": 462112,
+    "sha256": "949363e9f59e218d82e07da47748da8e91d58c93cf4bf2051fca48f46b79caaf"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/moons_10000_20271229.csv",
+    "bytes": 461823,
+    "sha256": "db2167d9ff9f6f99e25b86d06e9d29d0ebaf7dcb20681d0b056cd695c00d9f1b"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/moons_1000_20271129.csv",
+    "bytes": 45222,
+    "sha256": "27e56a0cce17c056b560fb3b03191cba1e8f71fcb331407c8a78b68dcf6b08d8"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/moons_1000_20271229.csv",
+    "bytes": 45185,
+    "sha256": "7544e772951d350c4330d2db244342544f734d8a6d3312292825d23978562f6f"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/moons_5000_20271129.csv",
+    "bytes": 230419,
+    "sha256": "ad4ba6a9fd5aa32a336e2cebdffefa24171cbb6d7cc0a89f0e4b489388c45e92"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/moons_5000_20271229.csv",
+    "bytes": 230519,
+    "sha256": "2ccf97c7731b2ee40ff9bec36d4b847dc897d2b6a80c54a9de085b7f087d6252"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/uniform_10000_20271129.csv",
+    "bytes": 468849,
+    "sha256": "a6d745334404fa09b89c3b78eba8078ec219eb3089225211300fe1c61eab1bbf"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/uniform_10000_20271229.csv",
+    "bytes": 469000,
+    "sha256": "d2c75ebeb9fd6b63941524a504a120b93f4477fd4023f9ae1afa7e2bc7da0ff5"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/uniform_1000_20271129.csv",
+    "bytes": 45903,
+    "sha256": "84fac97c63c5c0ee661ccc429abefeb83cce7aa4becfea9c60ad2761ccfd2055"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/uniform_1000_20271229.csv",
+    "bytes": 45869,
+    "sha256": "22fb3321a9deec16d1ee0d1d3d6492ed9e4623d94aa8649f67e6559a24f1b03a"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/uniform_5000_20271129.csv",
+    "bytes": 233898,
+    "sha256": "50174f96ab3c786df070bb2d6e31ead8d7d3c4b2936e8e27e9c78378cc4021d8"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/data/uniform_5000_20271229.csv",
+    "bytes": 234027,
+    "sha256": "cbad264cb34572bed6cfda0f1d8b2267d5d72e17caa43c7304da553a74f8c7a4"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/group_summary.csv",
+    "bytes": 3915,
+    "sha256": "aa3d77ae54d8382dca22a74b039694d136cbd6e995545e5aada0534ad5191e87"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/manifest.json",
+    "bytes": 7354,
+    "sha256": "b5328d83015c1353acafa129fbeed5a916a233d33eab5d4783a85a6957a5b7e4"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/memory.csv",
+    "bytes": 1778,
+    "sha256": "01492357c99145bed6e677df31c524cfaaac3f9bc088ba5cef35116177c7b028"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/memory_protocol.json",
+    "bytes": 569,
+    "sha256": "90854e002d4109a9fa9e9bdfbb8b3f8511135a847f1a36bec4d5a663033d63c3"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/protocol.json",
+    "bytes": 1892,
+    "sha256": "268b2510f28212e35d3445ddb6bd55e4f20108d159548ee430bab8618c417169"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/runs.csv",
+    "bytes": 48916,
+    "sha256": "78403b84afa48817537f0c4ba0528282e2473d08b2e3308831631b1bae958a88"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/solutions.json",
+    "bytes": 12319759,
+    "sha256": "75c75e21524b3ee46519d37c09c7d56554d50d7700ae77e739d3a01f743a8490"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/source_snapshot/datasets.py",
+    "bytes": 2378,
+    "sha256": "56a87be21f3f6ba676e3b70a756ca7b5fd364af91f92b8e9093a7bc2513e4b7d"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/source_snapshot/dbscan.py",
+    "bytes": 10099,
+    "sha256": "fe4c3a8039da89382ba732da9f6fafbfdaa9217624cc366cf64b3efb9bf4e256"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/source_snapshot/experiments.py",
+    "bytes": 15576,
+    "sha256": "9b560cb8c50690f5a13d7bc91b17adf74a017aec46b40e50730d03d3f0d5295e"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/source_snapshot/run.py",
+    "bytes": 3632,
+    "sha256": "59c9e58d5759f2052b3948b4c9629a89c5ba4d977f1f5875c91990bff9a8dab2"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/summary.json",
+    "bytes": 71449,
+    "sha256": "e7b23fba728fe1504c160a5f1c6b59b1648765816d76ab0020e1f936c0238847"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/outputs/validation/实验报告.md",
+    "bytes": 6345,
+    "sha256": "5a8a4ead754f7ea57289f36cc990c8fe207f057ddd63c1d6ce9051e16c1fca99"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/README.md",
+    "bytes": 12533,
+    "sha256": "0068616af9f847a324d5b5d7689c31b820ad9493871b1108fc8d78eea7cefcf7"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/requirements.txt",
+    "bytes": 139,
+    "sha256": "627583870797be223cc6097e282e7541895b910041f1c259977989ae6739597e"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/run.cmd",
+    "bytes": 228,
+    "sha256": "1585c94a98cb82a0da6ff9f437c1399f453db50079b88a2bfbc054772852995e"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/run.py",
+    "bytes": 3632,
+    "sha256": "59c9e58d5759f2052b3948b4c9629a89c5ba4d977f1f5875c91990bff9a8dab2"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/tests/test_algorithm.py",
+    "bytes": 7255,
+    "sha256": "d51c81ef4bee36ddb966aa1c50830ffab79f64a8b2932285a617f1176e6907a5"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/tools/build_handout.py",
+    "bytes": 15348,
+    "sha256": "a249cb2226239d91dc22b02b4dcbf3ad6e64fb6b300d07bf81ebe2df876f7c32"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/tools/measure_memory.py",
+    "bytes": 6502,
+    "sha256": "47e2d6f04603747274eb3d5df40c6b6232c7729fda8d2535f658bdd5efb3709f"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/tools/verify_results.py",
+    "bytes": 4350,
+    "sha256": "08830e7ddf31125849937f1e5807ff3e095dcff6c7a0012d450152cc55c9533d"
+  },
+  {
+    "path": "算法/02_DBSCAN网格加速/visualization.py",
+    "bytes": 4002,
+    "sha256": "1c38254fdcd50408d5e0a95022749354b0ea38f90eed8d80fff3b7a7e015c2e6"
+  }
+]

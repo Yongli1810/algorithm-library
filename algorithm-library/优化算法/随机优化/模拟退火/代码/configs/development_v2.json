@@ -1,0 +1,18 @@
+{
+  "purpose": "Development-only verification of the cooling-schedule correction; maps overlap the first development experiment.",
+  "sizes": [20, 50, 100],
+  "layouts": ["uniform", "clustered"],
+  "instances_per_layout": 3,
+  "seeds": [0, 1, 2, 3, 4],
+  "data_seed": 20261022,
+  "algorithm": {
+    "evaluations": 12000,
+    "calibration_samples": 200,
+    "patience": 1000,
+    "periodic_interval": 3000,
+    "reheat_floor_ratio": 0.02,
+    "reheat_gate_ratio": 0.1,
+    "reheat_until_fraction": 0.8,
+    "reheat_cooling": "remaining_budget"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "split": "development",
+  "families": ["uniform", "moons", "blobs", "dense"],
+  "sizes": [500, 2000],
+  "seeds": [20261029],
+  "repeats": 2,
+  "order_seed": 1701
+}

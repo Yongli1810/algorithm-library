@@ -1,0 +1,6 @@
+# Tested environment; core algorithm only requires NumPy.
+numpy==2.4.4
+scipy==1.18.1
+scikit-learn==1.9.0
+matplotlib==3.11.1
+psutil>=5.9,<8

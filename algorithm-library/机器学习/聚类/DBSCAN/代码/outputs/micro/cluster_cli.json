@@ -1,0 +1,45 @@
+{
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "core": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "stats": {
+    "queries": 10,
+    "candidate_cells": 27,
+    "box_checks": 27,
+    "skipped_cells": 3,
+    "accepted_cells": 23,
+    "distance_evaluations": 4,
+    "bulk_accepted_points": 35,
+    "neighbor_entries": 36,
+    "fallback_queries": 0
+  },
+  "timings": {
+    "total_seconds": 0.000804700000117009,
+    "index_seconds": 0.00021290000040607993,
+    "query_seconds": 0.0004132000012759818
+  },
+  "eps": 0.2,
+  "min_samples": 4,
+  "method": "pruned"
+}

@@ -1,0 +1,312 @@
+{
+  "groups": [
+    {
+      "n": 20,
+      "layout": "clustered",
+      "mode": "baseline",
+      "runs": 60,
+      "mean_length": 330.5647533198206,
+      "mean_within_instance_std": 1.8350499410134793,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.061553113333305494,
+      "mean_reheats": 0.0
+    },
+    {
+      "n": 20,
+      "layout": "clustered",
+      "mode": "periodic",
+      "runs": 60,
+      "mean_length": 330.5647533198206,
+      "mean_within_instance_std": 1.8350499410134793,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.06284871333339954,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 20,
+      "layout": "clustered",
+      "mode": "stagnation",
+      "runs": 60,
+      "mean_length": 330.1308994066957,
+      "mean_within_instance_std": 0.8890226148367626,
+      "mean_paired_gain_percent": 0.12646682605384207,
+      "mean_seconds": 0.05993927666669758,
+      "mean_reheats": 3.0
+    },
+    {
+      "n": 20,
+      "layout": "uniform",
+      "mode": "baseline",
+      "runs": 60,
+      "mean_length": 399.23999507468363,
+      "mean_within_instance_std": 3.014363720310453,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.06740377333332313,
+      "mean_reheats": 0.0
+    },
+    {
+      "n": 20,
+      "layout": "uniform",
+      "mode": "periodic",
+      "runs": 60,
+      "mean_length": 399.23999507468363,
+      "mean_within_instance_std": 3.014363720310453,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.07246350166663736,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 20,
+      "layout": "uniform",
+      "mode": "stagnation",
+      "runs": 60,
+      "mean_length": 399.1867007770908,
+      "mean_within_instance_std": 2.992317808982184,
+      "mean_paired_gain_percent": 0.013690247610441708,
+      "mean_seconds": 0.0656047433332939,
+      "mean_reheats": 3.0
+    },
+    {
+      "n": 50,
+      "layout": "clustered",
+      "mode": "baseline",
+      "runs": 60,
+      "mean_length": 472.6676544840641,
+      "mean_within_instance_std": 7.584709712810411,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.05856100166665783,
+      "mean_reheats": 0.0
+    },
+    {
+      "n": 50,
+      "layout": "clustered",
+      "mode": "periodic",
+      "runs": 60,
+      "mean_length": 473.0474474760404,
+      "mean_within_instance_std": 7.986649809541166,
+      "mean_paired_gain_percent": -0.07801469856227201,
+      "mean_seconds": 0.06054746000002827,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 50,
+      "layout": "clustered",
+      "mode": "stagnation",
+      "runs": 60,
+      "mean_length": 472.58625651588613,
+      "mean_within_instance_std": 7.927400687405498,
+      "mean_paired_gain_percent": 0.015378985461253308,
+      "mean_seconds": 0.05824674666661546,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 50,
+      "layout": "uniform",
+      "mode": "baseline",
+      "runs": 60,
+      "mean_length": 576.7657942311723,
+      "mean_within_instance_std": 17.15698719747277,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.06025361166665182,
+      "mean_reheats": 0.0
+    },
+    {
+      "n": 50,
+      "layout": "uniform",
+      "mode": "periodic",
+      "runs": 60,
+      "mean_length": 576.75091408725,
+      "mean_within_instance_std": 17.173216042831964,
+      "mean_paired_gain_percent": 0.002876579400293691,
+      "mean_seconds": 0.06217540833334472,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 50,
+      "layout": "uniform",
+      "mode": "stagnation",
+      "runs": 60,
+      "mean_length": 576.7809490975498,
+      "mean_within_instance_std": 17.153082680138557,
+      "mean_paired_gain_percent": -0.0026456429036320396,
+      "mean_seconds": 0.06126818833333043,
+      "mean_reheats": 1.6833333333333333
+    },
+    {
+      "n": 100,
+      "layout": "clustered",
+      "mode": "baseline",
+      "runs": 60,
+      "mean_length": 698.7937262421491,
+      "mean_within_instance_std": 13.443816505062209,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.06511099333333732,
+      "mean_reheats": 0.0
+    },
+    {
+      "n": 100,
+      "layout": "clustered",
+      "mode": "periodic",
+      "runs": 60,
+      "mean_length": 698.445635503771,
+      "mean_within_instance_std": 13.73887855792222,
+      "mean_paired_gain_percent": 0.05078378517841056,
+      "mean_seconds": 0.06686885166661037,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 100,
+      "layout": "clustered",
+      "mode": "stagnation",
+      "runs": 60,
+      "mean_length": 700.9631102919284,
+      "mean_within_instance_std": 11.474565532815129,
+      "mean_paired_gain_percent": -0.3062580944122074,
+      "mean_seconds": 0.06443302666663536,
+      "mean_reheats": 2.9833333333333334
+    },
+    {
+      "n": 100,
+      "layout": "uniform",
+      "mode": "baseline",
+      "runs": 60,
+      "mean_length": 937.1400008703873,
+      "mean_within_instance_std": 24.82201746444295,
+      "mean_paired_gain_percent": 0.0,
+      "mean_seconds": 0.07005450666676248,
+      "mean_reheats": 0.0
+    },
+    {
+      "n": 100,
+      "layout": "uniform",
+      "mode": "periodic",
+      "runs": 60,
+      "mean_length": 937.5725849786608,
+      "mean_within_instance_std": 23.917426538994153,
+      "mean_paired_gain_percent": -0.051048045152243794,
+      "mean_seconds": 0.07083597333339639,
+      "mean_reheats": 1.0
+    },
+    {
+      "n": 100,
+      "layout": "uniform",
+      "mode": "stagnation",
+      "runs": 60,
+      "mean_length": 938.8337322247191,
+      "mean_within_instance_std": 24.836336628661314,
+      "mean_paired_gain_percent": -0.22155958419461416,
+      "mean_seconds": 0.0681507983333328,
+      "mean_reheats": 2.9833333333333334
+    }
+  ],
+  "overall": [
+    {
+      "mode": "baseline",
+      "runs": 360,
+      "instances": 18,
+      "mean_paired_gain_percent": 0.0,
+      "map_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "ties": 360,
+      "losses": 0,
+      "mean_seconds": 0.06382283333333968,
+      "mean_reheats": 0.0,
+      "map_mean_gains": {
+        "clustered_100_0": 0.0,
+        "clustered_100_1": 0.0,
+        "clustered_100_2": 0.0,
+        "clustered_20_0": 0.0,
+        "clustered_20_1": 0.0,
+        "clustered_20_2": 0.0,
+        "clustered_50_0": 0.0,
+        "clustered_50_1": 0.0,
+        "clustered_50_2": 0.0,
+        "uniform_100_0": 0.0,
+        "uniform_100_1": 0.0,
+        "uniform_100_2": 0.0,
+        "uniform_20_0": 0.0,
+        "uniform_20_1": 0.0,
+        "uniform_20_2": 0.0,
+        "uniform_50_0": 0.0,
+        "uniform_50_1": 0.0,
+        "uniform_50_2": 0.0
+      }
+    },
+    {
+      "mode": "periodic",
+      "runs": 360,
+      "instances": 18,
+      "mean_paired_gain_percent": -0.012567063189301926,
+      "map_bootstrap_95_interval": [
+        -0.05154544737663543,
+        0.018115973989647757
+      ],
+      "wins": 16,
+      "ties": 320,
+      "losses": 24,
+      "mean_seconds": 0.06595665138890278,
+      "mean_reheats": 1.0,
+      "map_mean_gains": {
+        "clustered_100_0": 0.055292548333974845,
+        "clustered_100_1": 0.014350813974119789,
+        "clustered_100_2": 0.08270799322713704,
+        "clustered_20_0": 0.0,
+        "clustered_20_1": 0.0,
+        "clustered_20_2": 0.0,
+        "clustered_50_0": -0.009031770403246575,
+        "clustered_50_1": 0.024036489914698395,
+        "clustered_50_2": -0.24904881519826785,
+        "uniform_100_0": 0.034798927136507105,
+        "uniform_100_1": -0.18762437466610804,
+        "uniform_100_2": -0.00031868792713044545,
+        "uniform_20_0": 0.0,
+        "uniform_20_1": 0.0,
+        "uniform_20_2": 0.0,
+        "uniform_50_0": 0.0,
+        "uniform_50_1": 0.0,
+        "uniform_50_2": 0.008629738200881074
+      }
+    },
+    {
+      "mode": "stagnation",
+      "runs": 360,
+      "instances": 18,
+      "mean_paired_gain_percent": -0.06248787706415277,
+      "map_bootstrap_95_interval": [
+        -0.233743387449567,
+        0.06580661566206807
+      ],
+      "wins": 65,
+      "ties": 246,
+      "losses": 49,
+      "mean_seconds": 0.06294046333331758,
+      "mean_reheats": 2.441666666666667,
+      "map_mean_gains": {
+        "clustered_100_0": -0.01759543454430173,
+        "clustered_100_1": -1.0363280684745766,
+        "clustered_100_2": 0.13514921978225597,
+        "clustered_20_0": 0.18023900076755195,
+        "clustered_20_1": 0.008476701319924156,
+        "clustered_20_2": 0.19068477607405007,
+        "clustered_50_0": -0.016605918712880172,
+        "clustered_50_1": 0.010831241519836455,
+        "clustered_50_2": 0.05191163357680364,
+        "uniform_100_0": 0.15721726451077253,
+        "uniform_100_1": -0.9234292366036263,
+        "uniform_100_2": 0.10153321950901113,
+        "uniform_20_0": 0.03393857041813596,
+        "uniform_20_1": 0.0,
+        "uniform_20_2": 0.007132172413189165,
+        "uniform_50_0": -0.008021164953994755,
+        "uniform_50_1": 0.0,
+        "uniform_50_2": 8.423624309863576e-05
+      }
+    }
+  ],
+  "gain_definition": "100 * (baseline_length - method_length) / baseline_length; positive is better",
+  "uncertainty": "95% percentile bootstrap of map-level paired mean gains; descriptive, no generalization guarantee",
+  "std_definition": "Mean of sample standard deviations across seeds within each map; not across-map length variation"
+}

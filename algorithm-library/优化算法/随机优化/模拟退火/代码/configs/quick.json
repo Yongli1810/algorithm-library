@@ -1,0 +1,13 @@
+{
+  "sizes": [20, 50],
+  "layouts": ["uniform", "clustered"],
+  "instances_per_layout": 1,
+  "seeds": [0, 1, 2],
+  "data_seed": 20261022,
+  "algorithm": {
+    "evaluations": 3000,
+    "calibration_samples": 100,
+    "patience": 250,
+    "periodic_interval": 750
+  }
+}

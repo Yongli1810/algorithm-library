@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-29T01:31:16.930078+00:00",
+  "config": {
+    "split": "validation",
+    "families": [
+      "uniform",
+      "moons",
+      "blobs",
+      "dense"
+    ],
+    "sizes": [
+      1000,
+      5000,
+      10000
+    ],
+    "seeds": [
+      20271129,
+      20271229
+    ],
+    "repeats": 3,
+    "order_seed": 2701
+  },
+  "parameters": {
+    "uniform": {
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    "moons": {
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    "blobs": {
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    "dense": {
+      "eps": 0.2,
+      "min_samples": 8
+    }
+  },
+  "methods": [
+    "brute",
+    "grid",
+    "pruned",
+    "sklearn_kd_tree"
+  ],
+  "distance_rule": "numpy.hypot(dx,dy) <= eps; self included; sorted original ids",
+  "timing": "End-to-end fit, including validation and index/box construction; excludes imports, data generation, saving, comparison and plotting. No trace. Warm-up once per method. Randomized method order, fixed order seed.",
+  "external": "sklearn DBSCAN algorithm=kd_tree, leaf_size=40, euclidean, n_jobs=1; implementation comparison, not isolated algorithm effect",
+  "environment": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.4.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"
+  },
+  "source_sha256": {
+    "datasets.py": "56a87be21f3f6ba676e3b70a756ca7b5fd364af91f92b8e9093a7bc2513e4b7d",
+    "dbscan.py": "fe4c3a8039da89382ba732da9f6fafbfdaa9217624cc366cf64b3efb9bf4e256",
+    "experiments.py": "9b560cb8c50690f5a13d7bc91b17adf74a017aec46b40e50730d03d3f0d5295e",
+    "run.py": "59c9e58d5759f2052b3948b4c9629a89c5ba4d977f1f5875c91990bff9a8dab2"
+  }
+}

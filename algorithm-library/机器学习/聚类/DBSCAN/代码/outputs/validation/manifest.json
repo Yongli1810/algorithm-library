@@ -1,0 +1,245 @@
+{
+  "protocol_sha256": "268b2510f28212e35d3445ddb6bd55e4f20108d159548ee430bab8618c417169",
+  "cases": [
+    {
+      "case": "uniform_1000_20271129",
+      "family": "uniform",
+      "n": 1000,
+      "seed": 20272129,
+      "file": "data\\uniform_1000_20271129.csv",
+      "sha256": "84fac97c63c5c0ee661ccc429abefeb83cce7aa4becfea9c60ad2761ccfd2055",
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    {
+      "case": "uniform_1000_20271229",
+      "family": "uniform",
+      "n": 1000,
+      "seed": 20272229,
+      "file": "data\\uniform_1000_20271229.csv",
+      "sha256": "22fb3321a9deec16d1ee0d1d3d6492ed9e4623d94aa8649f67e6559a24f1b03a",
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    {
+      "case": "uniform_5000_20271129",
+      "family": "uniform",
+      "n": 5000,
+      "seed": 20276129,
+      "file": "data\\uniform_5000_20271129.csv",
+      "sha256": "50174f96ab3c786df070bb2d6e31ead8d7d3c4b2936e8e27e9c78378cc4021d8",
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    {
+      "case": "uniform_5000_20271229",
+      "family": "uniform",
+      "n": 5000,
+      "seed": 20276229,
+      "file": "data\\uniform_5000_20271229.csv",
+      "sha256": "cbad264cb34572bed6cfda0f1d8b2267d5d72e17caa43c7304da553a74f8c7a4",
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    {
+      "case": "uniform_10000_20271129",
+      "family": "uniform",
+      "n": 10000,
+      "seed": 20281129,
+      "file": "data\\uniform_10000_20271129.csv",
+      "sha256": "a6d745334404fa09b89c3b78eba8078ec219eb3089225211300fe1c61eab1bbf",
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    {
+      "case": "uniform_10000_20271229",
+      "family": "uniform",
+      "n": 10000,
+      "seed": 20281229,
+      "file": "data\\uniform_10000_20271229.csv",
+      "sha256": "d2c75ebeb9fd6b63941524a504a120b93f4477fd4023f9ae1afa7e2bc7da0ff5",
+      "eps": 0.055,
+      "min_samples": 8
+    },
+    {
+      "case": "moons_1000_20271129",
+      "family": "moons",
+      "n": 1000,
+      "seed": 20372129,
+      "file": "data\\moons_1000_20271129.csv",
+      "sha256": "27e56a0cce17c056b560fb3b03191cba1e8f71fcb331407c8a78b68dcf6b08d8",
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    {
+      "case": "moons_1000_20271229",
+      "family": "moons",
+      "n": 1000,
+      "seed": 20372229,
+      "file": "data\\moons_1000_20271229.csv",
+      "sha256": "7544e772951d350c4330d2db244342544f734d8a6d3312292825d23978562f6f",
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    {
+      "case": "moons_5000_20271129",
+      "family": "moons",
+      "n": 5000,
+      "seed": 20376129,
+      "file": "data\\moons_5000_20271129.csv",
+      "sha256": "ad4ba6a9fd5aa32a336e2cebdffefa24171cbb6d7cc0a89f0e4b489388c45e92",
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    {
+      "case": "moons_5000_20271229",
+      "family": "moons",
+      "n": 5000,
+      "seed": 20376229,
+      "file": "data\\moons_5000_20271229.csv",
+      "sha256": "2ccf97c7731b2ee40ff9bec36d4b847dc897d2b6a80c54a9de085b7f087d6252",
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    {
+      "case": "moons_10000_20271129",
+      "family": "moons",
+      "n": 10000,
+      "seed": 20381129,
+      "file": "data\\moons_10000_20271129.csv",
+      "sha256": "949363e9f59e218d82e07da47748da8e91d58c93cf4bf2051fca48f46b79caaf",
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    {
+      "case": "moons_10000_20271229",
+      "family": "moons",
+      "n": 10000,
+      "seed": 20381229,
+      "file": "data\\moons_10000_20271229.csv",
+      "sha256": "db2167d9ff9f6f99e25b86d06e9d29d0ebaf7dcb20681d0b056cd695c00d9f1b",
+      "eps": 0.07,
+      "min_samples": 8
+    },
+    {
+      "case": "blobs_1000_20271129",
+      "family": "blobs",
+      "n": 1000,
+      "seed": 20472129,
+      "file": "data\\blobs_1000_20271129.csv",
+      "sha256": "7f29e9e3c0382bd19b1bc7e0ce3c13e3d685192989898c9bd978a1f09a838472",
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    {
+      "case": "blobs_1000_20271229",
+      "family": "blobs",
+      "n": 1000,
+      "seed": 20472229,
+      "file": "data\\blobs_1000_20271229.csv",
+      "sha256": "30739df9311938347683866987b2f774432c588655bd752b59434ee828c43450",
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    {
+      "case": "blobs_5000_20271129",
+      "family": "blobs",
+      "n": 5000,
+      "seed": 20476129,
+      "file": "data\\blobs_5000_20271129.csv",
+      "sha256": "586771650138eab81765701b7e1512f85e780b4bf3976b57b131698ce8a9b605",
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    {
+      "case": "blobs_5000_20271229",
+      "family": "blobs",
+      "n": 5000,
+      "seed": 20476229,
+      "file": "data\\blobs_5000_20271229.csv",
+      "sha256": "669329a790b0ca35f05ac43cab33adee8aa8b6033ceb30afe5d5a60e0f8d237c",
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    {
+      "case": "blobs_10000_20271129",
+      "family": "blobs",
+      "n": 10000,
+      "seed": 20481129,
+      "file": "data\\blobs_10000_20271129.csv",
+      "sha256": "2b12a315adb10a8f68fb41c1bc4f6539ae67d046bdaa1151fdd581912961e0b8",
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    {
+      "case": "blobs_10000_20271229",
+      "family": "blobs",
+      "n": 10000,
+      "seed": 20481229,
+      "file": "data\\blobs_10000_20271229.csv",
+      "sha256": "1de922b125114e09c45d963a99418d27e412e1f864e0017de7ba29f6f60bec2b",
+      "eps": 0.075,
+      "min_samples": 8
+    },
+    {
+      "case": "dense_1000_20271129",
+      "family": "dense",
+      "n": 1000,
+      "seed": 20572129,
+      "file": "data\\dense_1000_20271129.csv",
+      "sha256": "6ff62a36221163d729ee780d0c440f12f4eb81fcf595566114b59f87ade2fc85",
+      "eps": 0.2,
+      "min_samples": 8
+    },
+    {
+      "case": "dense_1000_20271229",
+      "family": "dense",
+      "n": 1000,
+      "seed": 20572229,
+      "file": "data\\dense_1000_20271229.csv",
+      "sha256": "4da9a7c734775767ce31b04f7342dbf39af2f7333c174ffe146ec0c2ab990d42",
+      "eps": 0.2,
+      "min_samples": 8
+    },
+    {
+      "case": "dense_5000_20271129",
+      "family": "dense",
+      "n": 5000,
+      "seed": 20576129,
+      "file": "data\\dense_5000_20271129.csv",
+      "sha256": "45cff3eb7d81a8f32fc96a872c533db69b4feb912cdda764ca61c1d11ffed13f",
+      "eps": 0.2,
+      "min_samples": 8
+    },
+    {
+      "case": "dense_5000_20271229",
+      "family": "dense",
+      "n": 5000,
+      "seed": 20576229,
+      "file": "data\\dense_5000_20271229.csv",
+      "sha256": "ca635aa61479bf725f9fa29807b4d87e3f514d2425a0a955315be2a18f69d7c6",
+      "eps": 0.2,
+      "min_samples": 8
+    },
+    {
+      "case": "dense_10000_20271129",
+      "family": "dense",
+      "n": 10000,
+      "seed": 20581129,
+      "file": "data\\dense_10000_20271129.csv",
+      "sha256": "4c8304b52c1677c0b3e63a23d090844cf265caab0dcc8570cc564d1ae7f22004",
+      "eps": 0.2,
+      "min_samples": 8
+    },
+    {
+      "case": "dense_10000_20271229",
+      "family": "dense",
+      "n": 10000,
+      "seed": 20581229,
+      "file": "data\\dense_10000_20271229.csv",
+      "sha256": "7baa942e55b04762d70c1b655a9f73e832e2d860489b9f9d2bb4d629db564186",
+      "eps": 0.2,
+      "min_samples": 8
+    }
+  ]
+}

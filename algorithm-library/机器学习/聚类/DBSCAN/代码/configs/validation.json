@@ -1,0 +1,8 @@
+{
+  "split": "validation",
+  "families": ["uniform", "moons", "blobs", "dense"],
+  "sizes": [1000, 5000, 10000],
+  "seeds": [20271129, 20271229],
+  "repeats": 3,
+  "order_seed": 2701
+}

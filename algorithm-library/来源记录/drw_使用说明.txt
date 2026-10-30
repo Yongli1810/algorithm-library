@@ -1,0 +1,40 @@
+﻿两周算法代码包
+打包日期：2026-10-30
+
+一、目录
+算法/01_模拟退火配送路线优化/
+  模拟退火配送路线优化：最近邻初始化、2-opt 邻域、停滞触发回温与对照实验。
+算法/02_DBSCAN网格加速/
+  DBSCAN 聚类加速：暴力查询、网格查询、几何剪枝查询及 scikit-learn 对照。
+
+每个算法均保留独立目录，包含源码、配置、自动测试、依赖清单、运行说明、讲解文档、演示和正式验证结果。
+开发阶段的中间结果、无效的初次内存测量、缓存和虚拟环境未打包。
+具体算法、实验结论和局限请阅读各算法目录的 README.md。
+
+二、Windows 快速运行（建议使用 Python 3.12）
+1. 解压整个压缩包，保持目录结构。在包含本说明的目录打开 PowerShell。
+2. 创建环境：
+   py -3.12 -m venv .venv
+3. 安装两份依赖（需要联网；已安装依赖可跳过）：
+   .\.venv\Scripts\python.exe -m pip install -r "算法\01_模拟退火配送路线优化\requirements.txt" -r "算法\02_DBSCAN网格加速\requirements.txt"
+4. 进入任意一个算法目录，运行以下命令：
+   .\run.cmd test
+   .\run.cmd demo
+   run.cmd 会优先使用解压目录下的 .venv；若不存在，则使用 PATH 中的 python。
+   也可使用自己的 Python 环境，在算法目录执行 python run.py test 或 python run.py demo。
+5. 演示完成后，打开该算法 outputs/demo/demo.html。
+   包内也附有已生成的 demo.html，可直接用浏览器打开查看。
+
+三、重新做实验
+在相应算法目录运行：
+   .\run.cmd benchmark --config configs/quick.json --out outputs/my_quick_run
+完整实验配置见各目录 README.md。请将新的结果写入新目录，保留附带的正式验证结果。
+所有正式结果均来自此前实际运行，本次打包没有重新计算实验数据。
+
+四、文档及辅助工具
+各算法 docs 目录内附有 Word 讲解文档与验证记录。
+核心算法、测试和演示无需原始 Word 模板。
+可选的 tools/build_handout.py 是原工作区的文档生成辅助脚本，可能需要额外文档依赖和原始模板路径；它不属于上述快速运行流程。原始用户模板未包含在本包中。
+
+五、文件校验
+文件清单_SHA256.json 列出了包内每个原始项目文件的相对路径、大小与 SHA-256。

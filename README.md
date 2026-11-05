@@ -7,32 +7,33 @@
 采用“大类 → 子类 → 算法”的三级目录结构。每个算法目录提供 README，注明作者、分类、原始压缩包和资源状态。
 
 ```text
-优化算法/
-├── 多目标优化/NSGA-II/
-└── 随机优化/模拟退火/
-机器学习/
-├── 聚类/K-means/
-├── 聚类/DBSCAN/
-└── 分类/KNN手写数字识别/
-图像处理/
-├── 图像分割/灰度阈值二值化/
-└── 边缘检测/Sobel/
-来源记录/
+algorithm-library/              # 算法资源目录
+├── 优化算法/
+│   ├── 多目标优化/NSGA-II/
+│   └── 随机优化/模拟退火/
+├── 机器学习/
+│   ├── 聚类/K-means/
+│   ├── 聚类/DBSCAN/
+│   └── 分类/KNN手写数字识别/
+├── 图像处理/
+│   ├── 图像分割/灰度阈值二值化/
+│   └── 边缘检测/Sobel/
+└── 来源记录/
 ```
 
 ## 算法索引
 
 | 大类 | 子类 | 算法 | 作者 | 说明文档 | 代码目录 | 演示视频 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 优化算法 | 多目标优化 | [NSGA-II](优化算法/多目标优化/NSGA-II/README.md) | ght | [下载](优化算法/多目标优化/NSGA-II/说明文档.docx) | [查看](优化算法/多目标优化/NSGA-II/代码/) | 待补充 |
-| 优化算法 | 随机优化 | [模拟退火](优化算法/随机优化/模拟退火/README.md) | drw | [下载](优化算法/随机优化/模拟退火/说明文档.docx) | [查看](优化算法/随机优化/模拟退火/代码/) | 待补充 |
-| 机器学习 | 聚类 | [K-means](机器学习/聚类/K-means/README.md) | ght | [下载](机器学习/聚类/K-means/说明文档.docx) | [查看](机器学习/聚类/K-means/代码/) | 待补充 |
-| 机器学习 | 聚类 | [DBSCAN](机器学习/聚类/DBSCAN/README.md) | drw | [下载](机器学习/聚类/DBSCAN/说明文档.docx) | [查看](机器学习/聚类/DBSCAN/代码/) | 待补充 |
-| 机器学习 | 分类 | [KNN 手写数字识别](机器学习/分类/KNN手写数字识别/README.md) | zy | 待补充 | [查看](机器学习/分类/KNN手写数字识别/代码/) | 待补充 |
-| 图像处理 | 图像分割 | [灰度阈值二值化](图像处理/图像分割/灰度阈值二值化/README.md) | gzj | [下载](图像处理/图像分割/灰度阈值二值化/说明文档.docx) | [查看](图像处理/图像分割/灰度阈值二值化/代码/) | 待补充 |
-| 图像处理 | 边缘检测 | [Sobel](图像处理/边缘检测/Sobel/README.md) | gzj | [下载](图像处理/边缘检测/Sobel/说明文档.docx) | [查看](图像处理/边缘检测/Sobel/代码/) | 待补充 |
+| 优化算法 | 多目标优化 | [NSGA-II](algorithm-library/优化算法/多目标优化/NSGA-II/README.md) | ght | [下载](algorithm-library/优化算法/多目标优化/NSGA-II/说明文档.docx) | [查看](algorithm-library/优化算法/多目标优化/NSGA-II/代码/) | 待补充 |
+| 优化算法 | 随机优化 | [模拟退火](algorithm-library/优化算法/随机优化/模拟退火/README.md) | drw | [下载](algorithm-library/优化算法/随机优化/模拟退火/说明文档.docx) | [查看](algorithm-library/优化算法/随机优化/模拟退火/代码/) | 待补充 |
+| 机器学习 | 聚类 | [K-means](algorithm-library/机器学习/聚类/K-means/README.md) | ght | [下载](algorithm-library/机器学习/聚类/K-means/说明文档.docx) | [查看](algorithm-library/机器学习/聚类/K-means/代码/) | 待补充 |
+| 机器学习 | 聚类 | [DBSCAN](algorithm-library/机器学习/聚类/DBSCAN/README.md) | drw | [下载](algorithm-library/机器学习/聚类/DBSCAN/说明文档.docx) | [查看](algorithm-library/机器学习/聚类/DBSCAN/代码/) | 待补充 |
+| 机器学习 | 分类 | [KNN 手写数字识别](algorithm-library/机器学习/分类/KNN手写数字识别/README.md) | zy | [下载](algorithm-library/机器学习/分类/KNN手写数字识别/说明文档.docx) | [查看](algorithm-library/机器学习/分类/KNN手写数字识别/代码/) | 待补充 |
+| 图像处理 | 图像分割 | [灰度阈值二值化](algorithm-library/图像处理/图像分割/灰度阈值二值化/README.md) | gzj | [下载](algorithm-library/图像处理/图像分割/灰度阈值二值化/说明文档.docx) | [查看](algorithm-library/图像处理/图像分割/灰度阈值二值化/代码/) | 待补充 |
+| 图像处理 | 边缘检测 | [Sobel](algorithm-library/图像处理/边缘检测/Sobel/README.md) | gzj | [下载](algorithm-library/图像处理/边缘检测/Sobel/说明文档.docx) | [查看](algorithm-library/图像处理/边缘检测/Sobel/代码/) | 待补充 |
 
-本次收录 7 个算法，来自 4 个作者文件夹、6 个原始压缩包。drw 合集中两个算法已分别归类；zy 目前只提供一个算法包。作者以原始文件夹名称署名，详细追溯信息见 [来源记录](来源记录/README.md)。
+本次收录 7 个算法，来自 4 个作者文件夹、6 个原始压缩包。drw 合集中两个算法已分别归类；zy 目前只提供一个算法包。作者以原始文件夹名称署名，详细追溯信息见 [来源记录](algorithm-library/来源记录/README.md)。
 
 代码目录可能包含文档、数据和演示结果；交互 HTML 或结果图片不作为演示视频。此次未执行算法源码，原作者提供的运行说明和实验结果保留在包内。
 
@@ -54,7 +55,7 @@
 
 ## 本地上传说明
 
-本目录为可手动上传的仓库文件，不包含 `.git`。代码已解压到各算法的 `代码/` 目录，整理目录不保留 ZIP 压缩包。上传时保留完整目录层级，根目录 README.md 用于覆盖远程首页。
+本仓库的算法资源位于 `algorithm-library/` 子目录，首页链接均以此目录为前缀。代码已解压到各算法的 `代码/` 目录。提交时保留当前层级，并同时提交根目录 README.md 和算法资源的修改。
 
 ## 使用方法
 

@@ -1,0 +1,75 @@
+{
+  "package": "第三周_A星地标路径搜索_纯代码版_20261105",
+  "algorithm_sources": "Original project source files preserved byte-for-byte.",
+  "manifest_excludes_itself": true,
+  "files": {
+    ".gitignore": {
+      "bytes": 47,
+      "sha256": "75b4b096803b23d948a5eee221c0c97149b7d3a2b5e0c1b182800a25d009c222"
+    },
+    "README.md": {
+      "bytes": 5292,
+      "sha256": "853b07a06e43c0072407889c498a7effd3ec877582552e79f4063341b795be8c"
+    },
+    "configs/development.json": {
+      "bytes": 209,
+      "sha256": "e29dc4426ee0cb2050e231ea7551e3120f6d4b03443bd4746471b45ba8a0be63"
+    },
+    "configs/quick.json": {
+      "bytes": 204,
+      "sha256": "25e026af1bf7f92816e1955fda183d42db4b21ccadc1246938aee5eb478c02b5"
+    },
+    "configs/validation.json": {
+      "bytes": 224,
+      "sha256": "0537d9097888c863e662f4d59a0ff5633ca9aea98c4ebb159851148acbd213b3"
+    },
+    "datasets.py": {
+      "bytes": 2474,
+      "sha256": "fa1df162813ee67f9c919db2995dc51b5af6fe95d48cadbadd775ebd50ef7f0e"
+    },
+    "demo_template.html": {
+      "bytes": 16590,
+      "sha256": "087c126da2bf4dd7eb7088b91a29c90c165a10fe7e6eb07deee244972f0b8f08"
+    },
+    "examples/detour.txt": {
+      "bytes": 18,
+      "sha256": "1e3f7abc1a608c86986958b94a01272e2c29509bf4e5294fc21fd012203cce52"
+    },
+    "examples/disconnected.txt": {
+      "bytes": 18,
+      "sha256": "ce28ff23d052e8b2301b18fe36f99075512ecdb7c14a37fb1a20bcd7a6cd3faf"
+    },
+    "experiments.py": {
+      "bytes": 19577,
+      "sha256": "225ba633336452355d50788672f11bc24823b48858bce75538501c7202ca0297"
+    },
+    "pathfinding.py": {
+      "bytes": 10228,
+      "sha256": "3c216135b7e45c1ba6d2b91ea4e3c57ef9ea4500bb2916eeee884c02b2d7cd48"
+    },
+    "requirements.txt": {
+      "bytes": 171,
+      "sha256": "a38fddb6bc5d8f06b0e128b96895fe5586c5d296d408d4018d63ccd02ca2d1ca"
+    },
+    "run.cmd": {
+      "bytes": 252,
+      "sha256": "8ee79e216749931daace136a7d37cf5ce1bd396852fdf81825a2f3c0a9646405"
+    },
+    "run.py": {
+      "bytes": 3244,
+      "sha256": "c20fc1cdc11378c1bf841cf0639c23dff591f9a1f7d98d2d774addd80cf522d1"
+    },
+    "tests/test_algorithm.py": {
+      "bytes": 9781,
+      "sha256": "a39f1f9472b0c9a0b9fc11086265acb7b1ef8234644b8dfd538c63ad86065dba"
+    },
+    "tools/verify_results.py": {
+      "bytes": 6492,
+      "sha256": "3f41999204640bd6e3beec85847acc4a628840fec7a4f26c2790de0897c016c9"
+    },
+    "visualization.py": {
+      "bytes": 3697,
+      "sha256": "d50e92c12e2bd03a67a68fb6cbcfa39b5255f0aa3193b944ec0fff7c060f72f8"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "algorithm": "0/1 背包动态规划",
+  "data": "模拟数据",
+  "items": [
+    {
+      "name": "简易药包",
+      "weight": 2,
+      "value": 3
+    },
+    {
+      "name": "饮用水",
+      "weight": 3,
+      "value": 4
+    },
+    {
+      "name": "应急电池",
+      "weight": 4,
+      "value": 5
+    },
+    {
+      "name": "急救箱",
+      "weight": 5,
+      "value": 8
+    },
+    {
+      "name": "照明设备",
+      "weight": 6,
+      "value": 9
+    },
+    {
+      "name": "通信设备",
+      "weight": 7,
+      "value": 10
+    }
+  ],
+  "micro_optimal": 12,
+  "micro_selected_indices": [
+    1,
+    3
+  ],
+  "experiments": [
+    {
+      "capacity": 8,
+      "dp_optimal": 12,
+      "dp_1d": 12,
+      "greedy_ratio": 11,
+      "greedy_gap": 1,
+      "brute_force": 12,
+      "dp_states": 54,
+      "brute_subsets": 64,
+      "dp_runtime_ms": 0.0212,
+      "chosen_items": "饮用水/急救箱",
+      "chosen_weight": 8,
+      "greedy_items": "简易药包/急救箱"
+    },
+    {
+      "capacity": 10,
+      "dp_optimal": 15,
+      "dp_1d": 15,
+      "greedy_ratio": 15,
+      "greedy_gap": 0,
+      "brute_force": 15,
+      "dp_states": 66,
+      "brute_subsets": 64,
+      "dp_runtime_ms": 0.013,
+      "chosen_items": "简易药包/饮用水/急救箱",
+      "chosen_weight": 10,
+      "greedy_items": "简易药包/饮用水/急救箱"
+    },
+    {
+      "capacity": 12,
+      "dp_optimal": 18,
+      "dp_1d": 18,
+      "greedy_ratio": 15,
+      "greedy_gap": 3,
+      "brute_force": 18,
+      "dp_states": 78,
+      "brute_subsets": 64,
+      "dp_runtime_ms": 0.0122,
+      "chosen_items": "急救箱/通信设备",
+      "chosen_weight": 12,
+      "greedy_items": "简易药包/饮用水/急救箱"
+    },
+    {
+      "capacity": 14,
+      "dp_optimal": 21,
+      "dp_1d": 21,
+      "greedy_ratio": 20,
+      "greedy_gap": 1,
+      "brute_force": 21,
+      "dp_states": 90,
+      "brute_subsets": 64,
+      "dp_runtime_ms": 0.0176,
+      "chosen_items": "饮用水/急救箱/照明设备",
+      "chosen_weight": 14,
+      "greedy_items": "简易药包/急救箱/照明设备"
+    },
+    {
+      "capacity": 16,
+      "dp_optimal": 24,
+      "dp_1d": 24,
+      "greedy_ratio": 24,
+      "greedy_gap": 0,
+      "brute_force": 24,
+      "dp_states": 102,
+      "brute_subsets": 64,
+      "dp_runtime_ms": 0.0141,
+      "chosen_items": "简易药包/饮用水/急救箱/照明设备",
+      "chosen_weight": 16,
+      "greedy_items": "简易药包/饮用水/急救箱/照明设备"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "generated geometric sample",
+  "shape": [
+    240,
+    320
+  ],
+  "has_reference": true,
+  "seed": 42,
+  "sigma": 18.0,
+  "selected_kernel_size": 3,
+  "padding": "edge",
+  "compute_dtype": "float64",
+  "save_rounding": "numpy.rint (ties to even), clip to 0..255, cast uint8",
+  "timing_repeats": 20,
+  "timing_scope": "mean_filter only; excludes uint8 conversion, IO and visualization",
+  "metric_scope": "saved uint8 result against clean reference; full image including borders",
+  "psnr_zero_mse_encoding": "psnr_db=null and exact_match=true means positive infinity",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pillow": "12.3.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "baseline": {
+    "mse": 325.56506510416665,
+    "psnr_db": 23.004425643020916,
+    "exact_match": false
+  },
+  "results": [
+    {
+      "kernel_size": 3,
+      "mse": 102.62494791666667,
+      "psnr_db": 28.01827411149768,
+      "exact_match": false,
+      "median_ms": 0.81775,
+      "p25_ms": 0.764875,
+      "p75_ms": 0.865075
+    },
+    {
+      "kernel_size": 5,
+      "mse": 152.0203125,
+      "psnr_db": 26.31178739914723,
+      "exact_match": false,
+      "median_ms": 1.3836,
+      "p25_ms": 1.354575,
+      "p75_ms": 1.4048749999999999
+    },
+    {
+      "kernel_size": 9,
+      "mse": 227.03493489583335,
+      "psnr_db": 24.569876716698023,
+      "exact_match": false,
+      "median_ms": 3.2761,
+      "p25_ms": 3.2187,
+      "p75_ms": 3.32435
+    }
+  ]
+}

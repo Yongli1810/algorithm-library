@@ -1,0 +1,10 @@
+已有算法：kNN（k Nearest Neighbors），使用距离加权投票形式。
+报告功能：机械狗人员数字胸牌读取与登记ID查询。
+安装依赖：python -m pip install numpy==2.3.5
+运行完整实验：python run_experiment.py
+运行登记ID查询演示：python person_demo.py
+预期演示输出：digit=0，registered_id=P00，vote_support=1.0。
+登记表：数字0—9分别绑定虚构ID P00—P09，共10个登记ID。
+测试图像来自UCI公开数字集。相机胸牌定位、透视矫正和归一化属于上游输入准备，本代码不直接处理机械狗全景相机画面。
+本任务读取身份凭证；胸牌复制、转交不受此模块识别。当前为封闭集分类，空白和未知输入未设拒识机制。未开展人脸识别或机械狗实机验证。
+README.txt保留数据集来源、许可与完整实验协议，适用于本包全部识别实验。

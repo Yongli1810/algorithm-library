@@ -1,0 +1,10 @@
+{
+  "families": ["open", "random", "maze", "corridor"],
+  "sizes": [15],
+  "seeds": [20261106],
+  "queries": 5,
+  "repeats": 3,
+  "landmarks": 4,
+  "query_seed_offset": 7000000,
+  "order_seed": 6112026
+}

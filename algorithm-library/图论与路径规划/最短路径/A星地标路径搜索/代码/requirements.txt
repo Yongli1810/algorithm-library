@@ -1,0 +1,3 @@
+# The algorithm, CLI, demos, verification and tests use only the standard library.
+# Matplotlib is used only for benchmark figures; tested with 3.11.1.
+matplotlib>=3.7,<4

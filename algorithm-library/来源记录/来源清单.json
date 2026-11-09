@@ -54,5 +54,49 @@
     "docs": true,
     "sha256": "16878a6fa1db351351eb59311e7e9ea7a1a23604fb5d74eb9cbf5e5042c240ae",
     "source": "gzj/Sobel边缘检测教学演示完整包.zip"
+  },
+  {
+    "path": "图论与路径规划/最短路径/A星地标路径搜索",
+    "author": "drw",
+    "title": "A* 地标路径搜索",
+    "docs": true,
+    "video": true,
+    "sha256": "fbc5eba8b0914a5e2ae7683a425294e8d94e4d0bc1d1c0b236e654fccd8b2736",
+    "source": "A星地标路径搜索-drw.zip",
+    "added_date": "2026-11-06"
+  },
+  {
+    "path": "图像处理/图像去噪/均值滤波去噪",
+    "author": "gzj",
+    "title": "均值滤波去噪",
+    "docs": true,
+    "video": false,
+    "sha256": "a57276a3d0ff00c4bd247f4b7b535c45c9ef760c148ea250f402cceeabdd65da",
+    "source": "均值滤波去噪教学演示完整包-gzj.zip",
+    "added_date": "2026-11-06"
+  },
+  {
+    "path": "动态规划/背包问题/01背包动态规划",
+    "author": "ght",
+    "title": "0/1 背包动态规划",
+    "docs": true,
+    "video": true,
+    "sha256": "991a66e88489828a26a044af5d7103ea98fa39c333e16d6149daae4d74dc96c8",
+    "source": "Knapsack_DP_Complete_Package_ght.zip",
+    "added_date": "2026-11-09"
+  },
+  {
+    "path": "机器学习/分类/KNN机械狗人员编号识别",
+    "author": "zy",
+    "title": "kNN 机械狗人员编号识别",
+    "docs": true,
+    "video": false,
+    "sha256": "4d0d311d94f92b659417a524cc229cfb97a3a28a36385e21b2faa2276ed78d67",
+    "source": "kNN_Robot_Dog_Code_and_Results_zy.zip",
+    "added_date": "2026-11-09",
+    "supplemental_document": {
+      "name": "kNN_机械狗人员编号识别算法报告.docx",
+      "sha256": "9eef6226b72db60e931dce272183d3ec5ef1258ded020ba47151ced0ee33056d"
+    }
   }
 ]

@@ -7,18 +7,24 @@
 采用“大类 → 子类 → 算法”的三级目录结构。每个算法目录提供 README，注明作者、分类、原始压缩包和资源状态。
 
 ```text
-algorithm-library/              # 算法资源目录
-├── 优化算法/
-│   ├── 多目标优化/NSGA-II/
-│   └── 随机优化/模拟退火/
-├── 机器学习/
-│   ├── 聚类/K-means/
-│   ├── 聚类/DBSCAN/
-│   └── 分类/KNN手写数字识别/
-├── 图像处理/
-│   ├── 图像分割/灰度阈值二值化/
-│   └── 边缘检测/Sobel/
-└── 来源记录/
+algorithm-library/
+    优化算法/
+    ├── 多目标优化/NSGA-II/
+    └── 随机优化/模拟退火/
+    机器学习/
+    ├── 聚类/K-means/
+    ├── 聚类/DBSCAN/
+    ├── 分类/KNN手写数字识别/
+    └── 分类/KNN机械狗人员编号识别/
+    图像处理/
+    ├── 图像分割/灰度阈值二值化/
+    ├── 边缘检测/Sobel/
+    └── 图像去噪/均值滤波去噪/
+    图论与路径规划/
+    └── 最短路径/A星地标路径搜索/
+    动态规划/
+    └── 背包问题/01背包动态规划/
+    来源记录/
 ```
 
 ## 算法索引
@@ -30,10 +36,16 @@ algorithm-library/              # 算法资源目录
 | 机器学习 | 聚类 | [K-means](algorithm-library/机器学习/聚类/K-means/README.md) | ght | [下载](algorithm-library/机器学习/聚类/K-means/说明文档.docx) | [查看](algorithm-library/机器学习/聚类/K-means/代码/) | 待补充 |
 | 机器学习 | 聚类 | [DBSCAN](algorithm-library/机器学习/聚类/DBSCAN/README.md) | drw | [下载](algorithm-library/机器学习/聚类/DBSCAN/说明文档.docx) | [查看](algorithm-library/机器学习/聚类/DBSCAN/代码/) | 待补充 |
 | 机器学习 | 分类 | [KNN 手写数字识别](algorithm-library/机器学习/分类/KNN手写数字识别/README.md) | zy | [下载](algorithm-library/机器学习/分类/KNN手写数字识别/说明文档.docx) | [查看](algorithm-library/机器学习/分类/KNN手写数字识别/代码/) | 待补充 |
+| 机器学习 | 分类 | [kNN 机械狗人员编号识别](algorithm-library/机器学习/分类/KNN机械狗人员编号识别/README.md) | zy | [下载](algorithm-library/机器学习/分类/KNN机械狗人员编号识别/说明文档.docx) | [查看](algorithm-library/机器学习/分类/KNN机械狗人员编号识别/代码/) | 待补充 |
 | 图像处理 | 图像分割 | [灰度阈值二值化](algorithm-library/图像处理/图像分割/灰度阈值二值化/README.md) | gzj | [下载](algorithm-library/图像处理/图像分割/灰度阈值二值化/说明文档.docx) | [查看](algorithm-library/图像处理/图像分割/灰度阈值二值化/代码/) | 待补充 |
 | 图像处理 | 边缘检测 | [Sobel](algorithm-library/图像处理/边缘检测/Sobel/README.md) | gzj | [下载](algorithm-library/图像处理/边缘检测/Sobel/说明文档.docx) | [查看](algorithm-library/图像处理/边缘检测/Sobel/代码/) | 待补充 |
+| 图像处理 | 图像去噪 | [均值滤波去噪](algorithm-library/图像处理/图像去噪/均值滤波去噪/README.md) | gzj | [下载](algorithm-library/图像处理/图像去噪/均值滤波去噪/说明文档.docx) | [查看](algorithm-library/图像处理/图像去噪/均值滤波去噪/代码/) | 待补充 |
+| 图论与路径规划 | 最短路径 | [A* 地标路径搜索](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/README.md) | drw | [下载](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/说明文档.docx) | [查看](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/代码/) | [观看](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/演示视频.mp4) |
+| 动态规划 | 背包问题 | [0/1 背包动态规划](algorithm-library/动态规划/背包问题/01背包动态规划/README.md) | ght | [下载](algorithm-library/动态规划/背包问题/01背包动态规划/说明文档.docx) | [查看](algorithm-library/动态规划/背包问题/01背包动态规划/代码/) | [观看](algorithm-library/动态规划/背包问题/01背包动态规划/演示视频.mp4) |
 
-本次收录 7 个算法，来自 4 个作者文件夹、6 个原始压缩包。drw 合集中两个算法已分别归类；zy 目前只提供一个算法包。作者以原始文件夹名称署名，详细追溯信息见 [来源记录](algorithm-library/来源记录/README.md)。
+当前收录 11 个算法与应用条目，分属 5 个大类，来自 4 位作者、10 个原始压缩包。drw 合集中两个算法已分别归类；机械狗人员编号识别作为 kNN 的应用示例独立收录。作者以原始文件夹名称署名，详细追溯信息见 [来源记录](algorithm-library/来源记录/README.md)。
+
+A* 地标路径搜索和 0/1 背包动态规划已提供说明文档、代码和演示视频，其余条目的视频仍待补充。
 
 代码目录可能包含文档、数据和演示结果；交互 HTML 或结果图片不作为演示视频。此次未执行算法源码，原作者提供的运行说明和实验结果保留在包内。
 

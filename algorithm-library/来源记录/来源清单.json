@@ -1,6 +1,6 @@
 [
   {
-    "path": "优化算法/多目标优化/NSGA-II",
+    "path": "青少年科技竞赛算法与实践/优化算法/多目标优化/NSGA-II",
     "author": "ght",
     "title": "NSGA-II",
     "docs": true,
@@ -8,7 +8,7 @@
     "source": "ght/NSGA2_Demo_Full_Package_20261030.zip"
   },
   {
-    "path": "优化算法/随机优化/模拟退火",
+    "path": "青少年科技竞赛算法与实践/优化算法/随机优化/模拟退火",
     "author": "drw",
     "title": "模拟退火",
     "docs": true,
@@ -16,7 +16,7 @@
     "source": "drw/两周算法代码_模拟退火与DBSCAN_20261030.zip"
   },
   {
-    "path": "机器学习/聚类/K-means",
+    "path": "青少年科技竞赛算法与实践/机器学习/聚类/K-means",
     "author": "ght",
     "title": "K-means",
     "docs": true,
@@ -24,7 +24,7 @@
     "source": "ght/Kmeans_Complete_Package_v2.zip"
   },
   {
-    "path": "机器学习/聚类/DBSCAN",
+    "path": "青少年科技竞赛算法与实践/机器学习/聚类/DBSCAN",
     "author": "drw",
     "title": "DBSCAN",
     "docs": true,
@@ -32,7 +32,7 @@
     "source": "drw/两周算法代码_模拟退火与DBSCAN_20261030.zip"
   },
   {
-    "path": "机器学习/分类/KNN手写数字识别",
+    "path": "青少年科技竞赛算法与实践/机器学习/分类/KNN手写数字识别",
     "author": "zy",
     "title": "KNN 手写数字识别",
     "docs": false,
@@ -40,7 +40,7 @@
     "source": "zy/单个手写数字识别复现材料.zip"
   },
   {
-    "path": "图像处理/图像分割/灰度阈值二值化",
+    "path": "青少年科技竞赛算法与实践/图像处理/图像分割/灰度阈值二值化",
     "author": "gzj",
     "title": "灰度阈值二值化",
     "docs": true,
@@ -48,7 +48,7 @@
     "source": "gzj/灰度阈值二值化教学演示完整包.zip"
   },
   {
-    "path": "图像处理/边缘检测/Sobel",
+    "path": "青少年科技竞赛算法与实践/图像处理/边缘检测/Sobel",
     "author": "gzj",
     "title": "Sobel",
     "docs": true,
@@ -56,7 +56,7 @@
     "source": "gzj/Sobel边缘检测教学演示完整包.zip"
   },
   {
-    "path": "图论与路径规划/最短路径/A星地标路径搜索",
+    "path": "青少年科技竞赛算法与实践/图论与路径规划/最短路径/A星地标路径搜索",
     "author": "drw",
     "title": "A* 地标路径搜索",
     "docs": true,
@@ -66,7 +66,7 @@
     "added_date": "2026-11-06"
   },
   {
-    "path": "图像处理/图像去噪/均值滤波去噪",
+    "path": "青少年科技竞赛算法与实践/图像处理/图像去噪/均值滤波去噪",
     "author": "gzj",
     "title": "均值滤波去噪",
     "docs": true,
@@ -76,7 +76,7 @@
     "added_date": "2026-11-06"
   },
   {
-    "path": "动态规划/背包问题/01背包动态规划",
+    "path": "青少年科技竞赛算法与实践/动态规划/背包问题/01背包动态规划",
     "author": "ght",
     "title": "0/1 背包动态规划",
     "docs": true,
@@ -86,7 +86,7 @@
     "added_date": "2026-11-09"
   },
   {
-    "path": "机器学习/分类/KNN机械狗人员编号识别",
+    "path": "青少年科技竞赛算法与实践/机器学习/分类/KNN机械狗人员编号识别",
     "author": "zy",
     "title": "kNN 机械狗人员编号识别",
     "docs": true,

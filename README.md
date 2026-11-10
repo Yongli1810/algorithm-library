@@ -1,49 +1,47 @@
 # 算法资源库 | Algorithm Library
 
-按算法大类整理算法学习与实践资源。每个算法统一整理 **说明文档、代码与运行材料和演示视频**，方便查阅原理、运行代码和查看演示效果。
+按竞赛学习与学术研究两类用途管理算法资源，各目录内部再按算法大类整理。每个算法统一整理 **说明文档、代码与运行材料和演示视频**，方便查阅原理、运行代码和查看演示效果。
 
 ## 分类与目录
 
-采用“大类 → 子类 → 算法”的三级目录结构。每个算法目录提供 README，注明作者、分类、原始压缩包和资源状态。
+采用“用途目录 → 算法大类 → 子类 → 算法”的目录结构。每个算法目录提供 README，注明作者、分类、原始压缩包和资源状态。
 
 ```text
 algorithm-library/
-    优化算法/
-    ├── 多目标优化/NSGA-II/
-    └── 随机优化/模拟退火/
-    机器学习/
-    ├── 聚类/K-means/
-    ├── 聚类/DBSCAN/
-    ├── 分类/KNN手写数字识别/
-    └── 分类/KNN机械狗人员编号识别/
-    图像处理/
-    ├── 图像分割/灰度阈值二值化/
-    ├── 边缘检测/Sobel/
-    └── 图像去噪/均值滤波去噪/
-    图论与路径规划/
-    └── 最短路径/A星地标路径搜索/
-    动态规划/
-    └── 背包问题/01背包动态规划/
-    来源记录/
+├── 青少年科技竞赛算法与实践/
+│   ├── 优化算法/
+│   ├── 机器学习/
+│   ├── 图像处理/
+│   ├── 图论与路径规划/
+│   └── 动态规划/
+├── 学术研究算法与实验复现/
+└── 来源记录/
 ```
 
-## 算法索引
+## 用途目录
+
+| 目录 | 用途 | 当前状态 |
+| --- | --- | --- |
+| [青少年科技竞赛算法与实践](algorithm-library/青少年科技竞赛算法与实践/README.md) | 面向中小学生竞赛学习、专项训练与项目实践 | 收录原有全部 11 个算法与应用条目 |
+| [学术研究算法与实验复现](algorithm-library/学术研究算法与实验复现/README.md) | 收录学术论文中的算法实现、对比实验与复现材料 | 待收录 |
+
+## 竞赛算法索引
 
 | 大类 | 子类 | 算法 | 作者 | 说明文档 | 代码目录 | 演示视频 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 优化算法 | 多目标优化 | [NSGA-II](algorithm-library/优化算法/多目标优化/NSGA-II/README.md) | ght | [下载](algorithm-library/优化算法/多目标优化/NSGA-II/说明文档.docx) | [查看](algorithm-library/优化算法/多目标优化/NSGA-II/代码/) | 待补充 |
-| 优化算法 | 随机优化 | [模拟退火](algorithm-library/优化算法/随机优化/模拟退火/README.md) | drw | [下载](algorithm-library/优化算法/随机优化/模拟退火/说明文档.docx) | [查看](algorithm-library/优化算法/随机优化/模拟退火/代码/) | 待补充 |
-| 机器学习 | 聚类 | [K-means](algorithm-library/机器学习/聚类/K-means/README.md) | ght | [下载](algorithm-library/机器学习/聚类/K-means/说明文档.docx) | [查看](algorithm-library/机器学习/聚类/K-means/代码/) | 待补充 |
-| 机器学习 | 聚类 | [DBSCAN](algorithm-library/机器学习/聚类/DBSCAN/README.md) | drw | [下载](algorithm-library/机器学习/聚类/DBSCAN/说明文档.docx) | [查看](algorithm-library/机器学习/聚类/DBSCAN/代码/) | 待补充 |
-| 机器学习 | 分类 | [KNN 手写数字识别](algorithm-library/机器学习/分类/KNN手写数字识别/README.md) | zy | [下载](algorithm-library/机器学习/分类/KNN手写数字识别/说明文档.docx) | [查看](algorithm-library/机器学习/分类/KNN手写数字识别/代码/) | 待补充 |
-| 机器学习 | 分类 | [kNN 机械狗人员编号识别](algorithm-library/机器学习/分类/KNN机械狗人员编号识别/README.md) | zy | [下载](algorithm-library/机器学习/分类/KNN机械狗人员编号识别/说明文档.docx) | [查看](algorithm-library/机器学习/分类/KNN机械狗人员编号识别/代码/) | 待补充 |
-| 图像处理 | 图像分割 | [灰度阈值二值化](algorithm-library/图像处理/图像分割/灰度阈值二值化/README.md) | gzj | [下载](algorithm-library/图像处理/图像分割/灰度阈值二值化/说明文档.docx) | [查看](algorithm-library/图像处理/图像分割/灰度阈值二值化/代码/) | 待补充 |
-| 图像处理 | 边缘检测 | [Sobel](algorithm-library/图像处理/边缘检测/Sobel/README.md) | gzj | [下载](algorithm-library/图像处理/边缘检测/Sobel/说明文档.docx) | [查看](algorithm-library/图像处理/边缘检测/Sobel/代码/) | 待补充 |
-| 图像处理 | 图像去噪 | [均值滤波去噪](algorithm-library/图像处理/图像去噪/均值滤波去噪/README.md) | gzj | [下载](algorithm-library/图像处理/图像去噪/均值滤波去噪/说明文档.docx) | [查看](algorithm-library/图像处理/图像去噪/均值滤波去噪/代码/) | 待补充 |
-| 图论与路径规划 | 最短路径 | [A* 地标路径搜索](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/README.md) | drw | [下载](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/说明文档.docx) | [查看](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/代码/) | [观看](algorithm-library/图论与路径规划/最短路径/A星地标路径搜索/演示视频.mp4) |
-| 动态规划 | 背包问题 | [0/1 背包动态规划](algorithm-library/动态规划/背包问题/01背包动态规划/README.md) | ght | [下载](algorithm-library/动态规划/背包问题/01背包动态规划/说明文档.docx) | [查看](algorithm-library/动态规划/背包问题/01背包动态规划/代码/) | [观看](algorithm-library/动态规划/背包问题/01背包动态规划/演示视频.mp4) |
+| 优化算法 | 多目标优化 | [NSGA-II](algorithm-library/青少年科技竞赛算法与实践/优化算法/多目标优化/NSGA-II/README.md) | ght | [下载](algorithm-library/青少年科技竞赛算法与实践/优化算法/多目标优化/NSGA-II/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/优化算法/多目标优化/NSGA-II/代码/) | 待补充 |
+| 优化算法 | 随机优化 | [模拟退火](algorithm-library/青少年科技竞赛算法与实践/优化算法/随机优化/模拟退火/README.md) | drw | [下载](algorithm-library/青少年科技竞赛算法与实践/优化算法/随机优化/模拟退火/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/优化算法/随机优化/模拟退火/代码/) | 待补充 |
+| 机器学习 | 聚类 | [K-means](algorithm-library/青少年科技竞赛算法与实践/机器学习/聚类/K-means/README.md) | ght | [下载](algorithm-library/青少年科技竞赛算法与实践/机器学习/聚类/K-means/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/机器学习/聚类/K-means/代码/) | 待补充 |
+| 机器学习 | 聚类 | [DBSCAN](algorithm-library/青少年科技竞赛算法与实践/机器学习/聚类/DBSCAN/README.md) | drw | [下载](algorithm-library/青少年科技竞赛算法与实践/机器学习/聚类/DBSCAN/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/机器学习/聚类/DBSCAN/代码/) | 待补充 |
+| 机器学习 | 分类 | [KNN 手写数字识别](algorithm-library/青少年科技竞赛算法与实践/机器学习/分类/KNN手写数字识别/README.md) | zy | [下载](algorithm-library/青少年科技竞赛算法与实践/机器学习/分类/KNN手写数字识别/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/机器学习/分类/KNN手写数字识别/代码/) | 待补充 |
+| 机器学习 | 分类 | [kNN 机械狗人员编号识别](algorithm-library/青少年科技竞赛算法与实践/机器学习/分类/KNN机械狗人员编号识别/README.md) | zy | [下载](algorithm-library/青少年科技竞赛算法与实践/机器学习/分类/KNN机械狗人员编号识别/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/机器学习/分类/KNN机械狗人员编号识别/代码/) | 待补充 |
+| 图像处理 | 图像分割 | [灰度阈值二值化](algorithm-library/青少年科技竞赛算法与实践/图像处理/图像分割/灰度阈值二值化/README.md) | gzj | [下载](algorithm-library/青少年科技竞赛算法与实践/图像处理/图像分割/灰度阈值二值化/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/图像处理/图像分割/灰度阈值二值化/代码/) | 待补充 |
+| 图像处理 | 边缘检测 | [Sobel](algorithm-library/青少年科技竞赛算法与实践/图像处理/边缘检测/Sobel/README.md) | gzj | [下载](algorithm-library/青少年科技竞赛算法与实践/图像处理/边缘检测/Sobel/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/图像处理/边缘检测/Sobel/代码/) | 待补充 |
+| 图像处理 | 图像去噪 | [均值滤波去噪](algorithm-library/青少年科技竞赛算法与实践/图像处理/图像去噪/均值滤波去噪/README.md) | gzj | [下载](algorithm-library/青少年科技竞赛算法与实践/图像处理/图像去噪/均值滤波去噪/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/图像处理/图像去噪/均值滤波去噪/代码/) | 待补充 |
+| 图论与路径规划 | 最短路径 | [A* 地标路径搜索](algorithm-library/青少年科技竞赛算法与实践/图论与路径规划/最短路径/A星地标路径搜索/README.md) | drw | [下载](algorithm-library/青少年科技竞赛算法与实践/图论与路径规划/最短路径/A星地标路径搜索/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/图论与路径规划/最短路径/A星地标路径搜索/代码/) | [观看](algorithm-library/青少年科技竞赛算法与实践/图论与路径规划/最短路径/A星地标路径搜索/演示视频.mp4) |
+| 动态规划 | 背包问题 | [0/1 背包动态规划](algorithm-library/青少年科技竞赛算法与实践/动态规划/背包问题/01背包动态规划/README.md) | ght | [下载](algorithm-library/青少年科技竞赛算法与实践/动态规划/背包问题/01背包动态规划/说明文档.docx) | [查看](algorithm-library/青少年科技竞赛算法与实践/动态规划/背包问题/01背包动态规划/代码/) | [观看](algorithm-library/青少年科技竞赛算法与实践/动态规划/背包问题/01背包动态规划/演示视频.mp4) |
 
-当前收录 11 个算法与应用条目，分属 5 个大类，来自 4 位作者、10 个原始压缩包。drw 合集中两个算法已分别归类；机械狗人员编号识别作为 kNN 的应用示例独立收录。作者以原始文件夹名称署名，详细追溯信息见 [来源记录](algorithm-library/来源记录/README.md)。
+竞赛目录当前收录 11 个算法与应用条目，分属 5 个大类，来自 4 位作者、10 个原始压缩包。drw 合集中两个算法已分别归类；机械狗人员编号识别作为 kNN 的应用示例独立收录。作者以原始文件夹名称署名，详细追溯信息见 [来源记录](algorithm-library/来源记录/README.md)。
 
 A* 地标路径搜索和 0/1 背包动态规划已提供说明文档、代码和演示视频，其余条目的视频仍待补充。
 
@@ -71,14 +69,14 @@ A* 地标路径搜索和 0/1 背包动态规划已提供说明文档、代码和
 
 ## 使用方法
 
-1. 在算法索引中查找所需算法，并按分类进入对应目录。
+1. 先选择用途目录，再从算法索引进入所需算法。
 2. 阅读说明文档，了解算法原理和参数含义。
 3. 下载算法目录，按代码目录内的说明配置环境并运行。
 4. 观看演示视频，对照运行过程和结果。
 
 ## 新增算法
 
-1. 选择合适的大类与子类；没有合适分类时，再新增分类目录。
+1. 先选择竞赛学习或学术研究用途目录，再选择大类与子类；没有合适分类时新增分类目录。
 2. 创建算法目录，名称优先使用通用中文名或常用英文缩写。
 3. 按统一名称添加说明文档、代码目录和演示视频。
 4. 更新本 README 的算法索引与收录状态；资源上传后可为算法及文件添加相对链接。
